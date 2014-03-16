@@ -1,0 +1,44 @@
+# based on:
+# https://github.com/github/gitignore/blob/master/Objective-C.gitignore
+# and 
+# https://github.com/github/gitignore/blob/master/Global/OSX.gitignore
+
+
+# Add project-specific ignores here, for example:
+
+
+# OS X-related
+
+.DS_Store
+profile
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+
+# Xcode
+
+build/*
+
+*~.nib/
+
+# project-related
+
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+
+*.moved-aside
+
+# Workspace-related
+xcuserdata
+DerivedData/
+
+*.xccheckout
