@@ -27,6 +27,7 @@
 		C98DA7D218D651580078F1D1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98DA7D118D651580078F1D1 /* CoreData.framework */; };
 		C98DA7D518D657A90078F1D1 /* DemoDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C98DA7D418D657A90078F1D1 /* DemoDataManager.m */; };
 		C98DA7D818D658990078F1D1 /* demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C98DA7D618D658990078F1D1 /* demo.xcdatamodeld */; };
+		C98DA7DC18D665BB0078F1D1 /* NSManagedObject+EWAUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = C98DA7DB18D665BB0078F1D1 /* NSManagedObject+EWAUtilities.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,8 @@
 		C98DA7D318D657A90078F1D1 /* DemoDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoDataManager.h; sourceTree = "<group>"; };
 		C98DA7D418D657A90078F1D1 /* DemoDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoDataManager.m; sourceTree = "<group>"; };
 		C98DA7D718D658990078F1D1 /* demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = demo.xcdatamodel; sourceTree = "<group>"; };
+		C98DA7DA18D665BB0078F1D1 /* NSManagedObject+EWAUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+EWAUtilities.h"; sourceTree = "<group>"; };
+		C98DA7DB18D665BB0078F1D1 /* NSManagedObject+EWAUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+EWAUtilities.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +184,8 @@
 			children = (
 				C98DA7CE18D64FD20078F1D1 /* EWASimpleCoreDataManager.h */,
 				C98DA7CF18D64FD20078F1D1 /* EWASimpleCoreDataManager.m */,
+				C98DA7DA18D665BB0078F1D1 /* NSManagedObject+EWAUtilities.h */,
+				C98DA7DB18D665BB0078F1D1 /* NSManagedObject+EWAUtilities.m */,
 			);
 			path = EWASimpleCoreDataManager;
 			sourceTree = SOURCE_ROOT;
@@ -286,6 +291,7 @@
 			files = (
 				C98DA7D518D657A90078F1D1 /* DemoDataManager.m in Sources */,
 				C98DA7D018D64FD20078F1D1 /* EWASimpleCoreDataManager.m in Sources */,
+				C98DA7DC18D665BB0078F1D1 /* NSManagedObject+EWAUtilities.m in Sources */,
 				C98DA7A318D64E570078F1D1 /* EWAAppDelegate.m in Sources */,
 				C98DA7D818D658990078F1D1 /* demo.xcdatamodeld in Sources */,
 				C98DA7AC18D64E570078F1D1 /* EWAMasterViewController.m in Sources */,
