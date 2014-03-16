@@ -23,6 +23,8 @@
 		C98DA7BA18D64E570078F1D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98DA79618D64E570078F1D1 /* UIKit.framework */; };
 		C98DA7C218D64E570078F1D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C98DA7C018D64E570078F1D1 /* InfoPlist.strings */; };
 		C98DA7C418D64E570078F1D1 /* EWASimpleCoreDataManagerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C98DA7C318D64E570078F1D1 /* EWASimpleCoreDataManagerDemoTests.m */; };
+		C98DA7D018D64FD20078F1D1 /* EWASimpleCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C98DA7CF18D64FD20078F1D1 /* EWASimpleCoreDataManager.m */; };
+		C98DA7D218D651580078F1D1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98DA7D118D651580078F1D1 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,9 @@
 		C98DA7BF18D64E570078F1D1 /* EWASimpleCoreDataManagerDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EWASimpleCoreDataManagerDemoTests-Info.plist"; sourceTree = "<group>"; };
 		C98DA7C118D64E570078F1D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C98DA7C318D64E570078F1D1 /* EWASimpleCoreDataManagerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EWASimpleCoreDataManagerDemoTests.m; sourceTree = "<group>"; };
+		C98DA7CE18D64FD20078F1D1 /* EWASimpleCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWASimpleCoreDataManager.h; sourceTree = "<group>"; };
+		C98DA7CF18D64FD20078F1D1 /* EWASimpleCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWASimpleCoreDataManager.m; sourceTree = "<group>"; };
+		C98DA7D118D651580078F1D1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C98DA7D218D651580078F1D1 /* CoreData.framework in Frameworks */,
 				C98DA79518D64E570078F1D1 /* CoreGraphics.framework in Frameworks */,
 				C98DA79718D64E570078F1D1 /* UIKit.framework in Frameworks */,
 				C98DA79318D64E570078F1D1 /* Foundation.framework in Frameworks */,
@@ -106,6 +112,7 @@
 		C98DA79118D64E570078F1D1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C98DA7D118D651580078F1D1 /* CoreData.framework */,
 				C98DA79218D64E570078F1D1 /* Foundation.framework */,
 				C98DA79418D64E570078F1D1 /* CoreGraphics.framework */,
 				C98DA79618D64E570078F1D1 /* UIKit.framework */,
@@ -117,6 +124,7 @@
 		C98DA79818D64E570078F1D1 /* EWASimpleCoreDataManagerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C98DA7CD18D64FD20078F1D1 /* EWASimpleCoreDataManager */,
 				C98DA7A118D64E570078F1D1 /* EWAAppDelegate.h */,
 				C98DA7A218D64E570078F1D1 /* EWAAppDelegate.m */,
 				C98DA7A418D64E570078F1D1 /* Main_iPhone.storyboard */,
@@ -159,6 +167,15 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		C98DA7CD18D64FD20078F1D1 /* EWASimpleCoreDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				C98DA7CE18D64FD20078F1D1 /* EWASimpleCoreDataManager.h */,
+				C98DA7CF18D64FD20078F1D1 /* EWASimpleCoreDataManager.m */,
+			);
+			path = EWASimpleCoreDataManager;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -259,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C98DA7D018D64FD20078F1D1 /* EWASimpleCoreDataManager.m in Sources */,
 				C98DA7A318D64E570078F1D1 /* EWAAppDelegate.m in Sources */,
 				C98DA7AC18D64E570078F1D1 /* EWAMasterViewController.m in Sources */,
 				C98DA79F18D64E570078F1D1 /* main.m in Sources */,
@@ -352,7 +370,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -385,7 +403,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -477,6 +495,7 @@
 				C98DA7C918D64E570078F1D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C98DA7CA18D64E570078F1D1 /* Build configuration list for PBXNativeTarget "EWASimpleCoreDataManagerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -485,6 +504,7 @@
 				C98DA7CC18D64E570078F1D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
