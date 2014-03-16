@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C98DA79318D64E570078F1D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98DA79218D64E570078F1D1 /* Foundation.framework */; };
+		C98DA79518D64E570078F1D1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98DA79418D64E570078F1D1 /* CoreGraphics.framework */; };
+		C98DA79718D64E570078F1D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98DA79618D64E570078F1D1 /* UIKit.framework */; };
+		C98DA79D18D64E570078F1D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C98DA79B18D64E570078F1D1 /* InfoPlist.strings */; };
+		C98DA79F18D64E570078F1D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C98DA79E18D64E570078F1D1 /* main.m */; };
+		C98DA7A318D64E570078F1D1 /* EWAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C98DA7A218D64E570078F1D1 /* EWAAppDelegate.m */; };
+		C98DA7A618D64E570078F1D1 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C98DA7A418D64E570078F1D1 /* Main_iPhone.storyboard */; };
+		C98DA7A918D64E570078F1D1 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C98DA7A718D64E570078F1D1 /* Main_iPad.storyboard */; };
+		C98DA7AC18D64E570078F1D1 /* EWAMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C98DA7AB18D64E570078F1D1 /* EWAMasterViewController.m */; };
+		C98DA7AF18D64E570078F1D1 /* EWADetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C98DA7AE18D64E570078F1D1 /* EWADetailViewController.m */; };
+		C98DA7B118D64E570078F1D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C98DA7B018D64E570078F1D1 /* Images.xcassets */; };
+		C98DA7B818D64E570078F1D1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98DA7B718D64E570078F1D1 /* XCTest.framework */; };
+		C98DA7B918D64E570078F1D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98DA79218D64E570078F1D1 /* Foundation.framework */; };
+		C98DA7BA18D64E570078F1D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98DA79618D64E570078F1D1 /* UIKit.framework */; };
+		C98DA7C218D64E570078F1D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C98DA7C018D64E570078F1D1 /* InfoPlist.strings */; };
+		C98DA7C418D64E570078F1D1 /* EWASimpleCoreDataManagerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C98DA7C318D64E570078F1D1 /* EWASimpleCoreDataManagerDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C98DA7BB18D64E570078F1D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C98DA78718D64E570078F1D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C98DA78E18D64E570078F1D1;
+			remoteInfo = EWASimpleCoreDataManagerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C98DA78F18D64E570078F1D1 /* EWASimpleCoreDataManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EWASimpleCoreDataManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C98DA79218D64E570078F1D1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C98DA79418D64E570078F1D1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C98DA79618D64E570078F1D1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C98DA79A18D64E570078F1D1 /* EWASimpleCoreDataManagerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EWASimpleCoreDataManagerDemo-Info.plist"; sourceTree = "<group>"; };
+		C98DA79C18D64E570078F1D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C98DA79E18D64E570078F1D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C98DA7A018D64E570078F1D1 /* EWASimpleCoreDataManagerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EWASimpleCoreDataManagerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		C98DA7A118D64E570078F1D1 /* EWAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EWAAppDelegate.h; sourceTree = "<group>"; };
+		C98DA7A218D64E570078F1D1 /* EWAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EWAAppDelegate.m; sourceTree = "<group>"; };
+		C98DA7A518D64E570078F1D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		C98DA7A818D64E570078F1D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		C98DA7AA18D64E570078F1D1 /* EWAMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EWAMasterViewController.h; sourceTree = "<group>"; };
+		C98DA7AB18D64E570078F1D1 /* EWAMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EWAMasterViewController.m; sourceTree = "<group>"; };
+		C98DA7AD18D64E570078F1D1 /* EWADetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EWADetailViewController.h; sourceTree = "<group>"; };
+		C98DA7AE18D64E570078F1D1 /* EWADetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EWADetailViewController.m; sourceTree = "<group>"; };
+		C98DA7B018D64E570078F1D1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C98DA7B618D64E570078F1D1 /* EWASimpleCoreDataManagerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EWASimpleCoreDataManagerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C98DA7B718D64E570078F1D1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C98DA7BF18D64E570078F1D1 /* EWASimpleCoreDataManagerDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EWASimpleCoreDataManagerDemoTests-Info.plist"; sourceTree = "<group>"; };
+		C98DA7C118D64E570078F1D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C98DA7C318D64E570078F1D1 /* EWASimpleCoreDataManagerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EWASimpleCoreDataManagerDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C98DA78C18D64E570078F1D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C98DA79518D64E570078F1D1 /* CoreGraphics.framework in Frameworks */,
+				C98DA79718D64E570078F1D1 /* UIKit.framework in Frameworks */,
+				C98DA79318D64E570078F1D1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C98DA7B318D64E570078F1D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C98DA7B818D64E570078F1D1 /* XCTest.framework in Frameworks */,
+				C98DA7BA18D64E570078F1D1 /* UIKit.framework in Frameworks */,
+				C98DA7B918D64E570078F1D1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C98DA78618D64E570078F1D1 = {
+			isa = PBXGroup;
+			children = (
+				C98DA79818D64E570078F1D1 /* EWASimpleCoreDataManagerDemo */,
+				C98DA7BD18D64E570078F1D1 /* EWASimpleCoreDataManagerDemoTests */,
+				C98DA79118D64E570078F1D1 /* Frameworks */,
+				C98DA79018D64E570078F1D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C98DA79018D64E570078F1D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C98DA78F18D64E570078F1D1 /* EWASimpleCoreDataManagerDemo.app */,
+				C98DA7B618D64E570078F1D1 /* EWASimpleCoreDataManagerDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C98DA79118D64E570078F1D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C98DA79218D64E570078F1D1 /* Foundation.framework */,
+				C98DA79418D64E570078F1D1 /* CoreGraphics.framework */,
+				C98DA79618D64E570078F1D1 /* UIKit.framework */,
+				C98DA7B718D64E570078F1D1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C98DA79818D64E570078F1D1 /* EWASimpleCoreDataManagerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C98DA7A118D64E570078F1D1 /* EWAAppDelegate.h */,
+				C98DA7A218D64E570078F1D1 /* EWAAppDelegate.m */,
+				C98DA7A418D64E570078F1D1 /* Main_iPhone.storyboard */,
+				C98DA7A718D64E570078F1D1 /* Main_iPad.storyboard */,
+				C98DA7AA18D64E570078F1D1 /* EWAMasterViewController.h */,
+				C98DA7AB18D64E570078F1D1 /* EWAMasterViewController.m */,
+				C98DA7AD18D64E570078F1D1 /* EWADetailViewController.h */,
+				C98DA7AE18D64E570078F1D1 /* EWADetailViewController.m */,
+				C98DA7B018D64E570078F1D1 /* Images.xcassets */,
+				C98DA79918D64E570078F1D1 /* Supporting Files */,
+			);
+			path = EWASimpleCoreDataManagerDemo;
+			sourceTree = "<group>";
+		};
+		C98DA79918D64E570078F1D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C98DA79A18D64E570078F1D1 /* EWASimpleCoreDataManagerDemo-Info.plist */,
+				C98DA79B18D64E570078F1D1 /* InfoPlist.strings */,
+				C98DA79E18D64E570078F1D1 /* main.m */,
+				C98DA7A018D64E570078F1D1 /* EWASimpleCoreDataManagerDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C98DA7BD18D64E570078F1D1 /* EWASimpleCoreDataManagerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C98DA7C318D64E570078F1D1 /* EWASimpleCoreDataManagerDemoTests.m */,
+				C98DA7BE18D64E570078F1D1 /* Supporting Files */,
+			);
+			path = EWASimpleCoreDataManagerDemoTests;
+			sourceTree = "<group>";
+		};
+		C98DA7BE18D64E570078F1D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C98DA7BF18D64E570078F1D1 /* EWASimpleCoreDataManagerDemoTests-Info.plist */,
+				C98DA7C018D64E570078F1D1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C98DA78E18D64E570078F1D1 /* EWASimpleCoreDataManagerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C98DA7C718D64E570078F1D1 /* Build configuration list for PBXNativeTarget "EWASimpleCoreDataManagerDemo" */;
+			buildPhases = (
+				C98DA78B18D64E570078F1D1 /* Sources */,
+				C98DA78C18D64E570078F1D1 /* Frameworks */,
+				C98DA78D18D64E570078F1D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EWASimpleCoreDataManagerDemo;
+			productName = EWASimpleCoreDataManagerDemo;
+			productReference = C98DA78F18D64E570078F1D1 /* EWASimpleCoreDataManagerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C98DA7B518D64E570078F1D1 /* EWASimpleCoreDataManagerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C98DA7CA18D64E570078F1D1 /* Build configuration list for PBXNativeTarget "EWASimpleCoreDataManagerDemoTests" */;
+			buildPhases = (
+				C98DA7B218D64E570078F1D1 /* Sources */,
+				C98DA7B318D64E570078F1D1 /* Frameworks */,
+				C98DA7B418D64E570078F1D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C98DA7BC18D64E570078F1D1 /* PBXTargetDependency */,
+			);
+			name = EWASimpleCoreDataManagerDemoTests;
+			productName = EWASimpleCoreDataManagerDemoTests;
+			productReference = C98DA7B618D64E570078F1D1 /* EWASimpleCoreDataManagerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C98DA78718D64E570078F1D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EWA;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Elsewise;
+				TargetAttributes = {
+					C98DA7B518D64E570078F1D1 = {
+						TestTargetID = C98DA78E18D64E570078F1D1;
+					};
+				};
+			};
+			buildConfigurationList = C98DA78A18D64E570078F1D1 /* Build configuration list for PBXProject "EWASimpleCoreDataManagerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C98DA78618D64E570078F1D1;
+			productRefGroup = C98DA79018D64E570078F1D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C98DA78E18D64E570078F1D1 /* EWASimpleCoreDataManagerDemo */,
+				C98DA7B518D64E570078F1D1 /* EWASimpleCoreDataManagerDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C98DA78D18D64E570078F1D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C98DA7A918D64E570078F1D1 /* Main_iPad.storyboard in Resources */,
+				C98DA7B118D64E570078F1D1 /* Images.xcassets in Resources */,
+				C98DA7A618D64E570078F1D1 /* Main_iPhone.storyboard in Resources */,
+				C98DA79D18D64E570078F1D1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C98DA7B418D64E570078F1D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C98DA7C218D64E570078F1D1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C98DA78B18D64E570078F1D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C98DA7A318D64E570078F1D1 /* EWAAppDelegate.m in Sources */,
+				C98DA7AC18D64E570078F1D1 /* EWAMasterViewController.m in Sources */,
+				C98DA79F18D64E570078F1D1 /* main.m in Sources */,
+				C98DA7AF18D64E570078F1D1 /* EWADetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C98DA7B218D64E570078F1D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C98DA7C418D64E570078F1D1 /* EWASimpleCoreDataManagerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C98DA7BC18D64E570078F1D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C98DA78E18D64E570078F1D1 /* EWASimpleCoreDataManagerDemo */;
+			targetProxy = C98DA7BB18D64E570078F1D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C98DA79B18D64E570078F1D1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C98DA79C18D64E570078F1D1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C98DA7A418D64E570078F1D1 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C98DA7A518D64E570078F1D1 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		C98DA7A718D64E570078F1D1 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C98DA7A818D64E570078F1D1 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		C98DA7C018D64E570078F1D1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C98DA7C118D64E570078F1D1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C98DA7C518D64E570078F1D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C98DA7C618D64E570078F1D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C98DA7C818D64E570078F1D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EWASimpleCoreDataManagerDemo/EWASimpleCoreDataManagerDemo-Prefix.pch";
+				INFOPLIST_FILE = "EWASimpleCoreDataManagerDemo/EWASimpleCoreDataManagerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C98DA7C918D64E570078F1D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EWASimpleCoreDataManagerDemo/EWASimpleCoreDataManagerDemo-Prefix.pch";
+				INFOPLIST_FILE = "EWASimpleCoreDataManagerDemo/EWASimpleCoreDataManagerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C98DA7CB18D64E570078F1D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EWASimpleCoreDataManagerDemo.app/EWASimpleCoreDataManagerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EWASimpleCoreDataManagerDemo/EWASimpleCoreDataManagerDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EWASimpleCoreDataManagerDemoTests/EWASimpleCoreDataManagerDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C98DA7CC18D64E570078F1D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EWASimpleCoreDataManagerDemo.app/EWASimpleCoreDataManagerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EWASimpleCoreDataManagerDemo/EWASimpleCoreDataManagerDemo-Prefix.pch";
+				INFOPLIST_FILE = "EWASimpleCoreDataManagerDemoTests/EWASimpleCoreDataManagerDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C98DA78A18D64E570078F1D1 /* Build configuration list for PBXProject "EWASimpleCoreDataManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C98DA7C518D64E570078F1D1 /* Debug */,
+				C98DA7C618D64E570078F1D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C98DA7C718D64E570078F1D1 /* Build configuration list for PBXNativeTarget "EWASimpleCoreDataManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C98DA7C818D64E570078F1D1 /* Debug */,
+				C98DA7C918D64E570078F1D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C98DA7CA18D64E570078F1D1 /* Build configuration list for PBXNativeTarget "EWASimpleCoreDataManagerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C98DA7CB18D64E570078F1D1 /* Debug */,
+				C98DA7CC18D64E570078F1D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C98DA78718D64E570078F1D1 /* Project object */;
+}
