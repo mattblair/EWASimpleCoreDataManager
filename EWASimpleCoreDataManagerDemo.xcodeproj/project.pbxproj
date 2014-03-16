@@ -25,6 +25,8 @@
 		C98DA7C418D64E570078F1D1 /* EWASimpleCoreDataManagerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C98DA7C318D64E570078F1D1 /* EWASimpleCoreDataManagerDemoTests.m */; };
 		C98DA7D018D64FD20078F1D1 /* EWASimpleCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C98DA7CF18D64FD20078F1D1 /* EWASimpleCoreDataManager.m */; };
 		C98DA7D218D651580078F1D1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98DA7D118D651580078F1D1 /* CoreData.framework */; };
+		C98DA7D518D657A90078F1D1 /* DemoDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C98DA7D418D657A90078F1D1 /* DemoDataManager.m */; };
+		C98DA7D818D658990078F1D1 /* demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C98DA7D618D658990078F1D1 /* demo.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,9 @@
 		C98DA7CE18D64FD20078F1D1 /* EWASimpleCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWASimpleCoreDataManager.h; sourceTree = "<group>"; };
 		C98DA7CF18D64FD20078F1D1 /* EWASimpleCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWASimpleCoreDataManager.m; sourceTree = "<group>"; };
 		C98DA7D118D651580078F1D1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C98DA7D318D657A90078F1D1 /* DemoDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoDataManager.h; sourceTree = "<group>"; };
+		C98DA7D418D657A90078F1D1 /* DemoDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoDataManager.m; sourceTree = "<group>"; };
+		C98DA7D718D658990078F1D1 /* demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = demo.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +132,9 @@
 				C98DA7CD18D64FD20078F1D1 /* EWASimpleCoreDataManager */,
 				C98DA7A118D64E570078F1D1 /* EWAAppDelegate.h */,
 				C98DA7A218D64E570078F1D1 /* EWAAppDelegate.m */,
+				C98DA7D618D658990078F1D1 /* demo.xcdatamodeld */,
+				C98DA7D318D657A90078F1D1 /* DemoDataManager.h */,
+				C98DA7D418D657A90078F1D1 /* DemoDataManager.m */,
 				C98DA7A418D64E570078F1D1 /* Main_iPhone.storyboard */,
 				C98DA7A718D64E570078F1D1 /* Main_iPad.storyboard */,
 				C98DA7AA18D64E570078F1D1 /* EWAMasterViewController.h */,
@@ -276,8 +284,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C98DA7D518D657A90078F1D1 /* DemoDataManager.m in Sources */,
 				C98DA7D018D64FD20078F1D1 /* EWASimpleCoreDataManager.m in Sources */,
 				C98DA7A318D64E570078F1D1 /* EWAAppDelegate.m in Sources */,
+				C98DA7D818D658990078F1D1 /* demo.xcdatamodeld in Sources */,
 				C98DA7AC18D64E570078F1D1 /* EWAMasterViewController.m in Sources */,
 				C98DA79F18D64E570078F1D1 /* main.m in Sources */,
 				C98DA7AF18D64E570078F1D1 /* EWADetailViewController.m in Sources */,
@@ -507,6 +517,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C98DA7D618D658990078F1D1 /* demo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C98DA7D718D658990078F1D1 /* demo.xcdatamodel */,
+			);
+			currentVersion = C98DA7D718D658990078F1D1 /* demo.xcdatamodel */;
+			path = demo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C98DA78718D64E570078F1D1 /* Project object */;
 }
