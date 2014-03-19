@@ -10,6 +10,23 @@
 
 @implementation NSManagedObject (EWAUtilities)
 
+
+#pragma mark - Creating Objects
+
+// adapated from http://www.objc.io/issue-4/core-data-overview.html
+
++ (NSString *)entityName {
+    return NSStringFromClass([self class]);
+}
+
++ (instancetype)insertNewObjectInManagedObjectContext:(NSManagedObjectContext *)moc {
+    
+    return [NSEntityDescription insertNewObjectForEntityForName:[self entityName]
+                                         inManagedObjectContext:moc];
+}
+
+#pragma mark - Importing from JSON
+
 - (void)setValuesFromJSONDictionary:(NSDictionary *)jsonDictionary withDateFormatter:(NSDateFormatter *)dateFormatter excludingProperties:(NSArray *)propertiesToExclude {
     
     // future-proof introspection of keys
