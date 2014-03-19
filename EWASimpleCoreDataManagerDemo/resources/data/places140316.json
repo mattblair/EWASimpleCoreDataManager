@@ -1,0 +1,4622 @@
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.5377536, 
+                    45.5167027
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 3 works of art", 
+                "recordID": "1324", 
+                "artCount": 3, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "42a35833e76a40de9bfa401f538ef3f9"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6757545, 
+                    45.5221254
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Untitled", 
+                "recordID": "792", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "John Killmaster"
+            }, 
+            "id": "0c54f2f4297a4a78aba686635cba1251"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.552968, 
+                    45.516031
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 5 works of art", 
+                "recordID": "1566", 
+                "artCount": 5, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "ae2ed0ce1a024b839bccb290612746ed"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6785076, 
+                    45.5244534
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Nepenthes", 
+                "recordID": "3224", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Dan Corson"
+            }, 
+            "id": "12d5621eb370429a8aa79a84e4822e7a"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6833372, 
+                    45.5198615
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "Country United", 
+                "recordID": "2786", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "William Park"
+            }, 
+            "id": "387f7402659e45faa633c959a459eead"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.756345, 
+                    45.58874
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "architectural integration", 
+                "title": "The Conduct of an Instant has the Power to Change Everything", 
+                "recordID": "1514", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Carolyn King"
+            }, 
+            "id": "64d5f91bae4c47e998b76b939d46f58f"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.618154, 
+                    45.5121565
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "Share the Road", 
+                "recordID": "2775", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Sara Stout"
+            }, 
+            "id": "452c3c68c2734881bbde9dea2cb06e21"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.651711, 
+                    45.571853
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Buckeye Bench", 
+                "recordID": "1753", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Anne Storrs"
+            }, 
+            "id": "c7a7f8e391f347b1b0bcc585b0341c23"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6901291, 
+                    45.5224291
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Howard's Way", 
+                "recordID": "2814", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Lee Kelly"
+            }, 
+            "id": "8307e45199674b4595794c127aec003b"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.612019, 
+                    45.511598
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "The History of Hawthorne", 
+                "recordID": "3206", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Chris Haberman"
+            }, 
+            "id": "296f62249a3f48db8236e392c91dd8ba"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.675185, 
+                    45.556762
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "Life Cycle of a Sun Flower", 
+                "recordID": "2494", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Sherri Love Earnshaw"
+            }, 
+            "id": "dec1345a74b74ed7b896fb82c5d2812d"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.693217, 
+                    45.47863599999999
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "other", 
+                "title": "Liquid Flight", 
+                "recordID": "2239", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "William Park"
+            }, 
+            "id": "a9c98415c30e4545b6c07addf25cbfd8"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.7326727, 
+                    45.5873583
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "Miraflores", 
+                "recordID": "2922", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Hector Hernandez"
+            }, 
+            "id": "aaae243244e94c61961edf83f0d970e5"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6810495, 
+                    45.5097481
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 14 works of art", 
+                "recordID": "1674", 
+                "artCount": 14, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "3b9439e49b824d5cab2e280f15f0db50"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.658275, 
+                    45.536786
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "MIKE Mural", 
+                "recordID": "2930", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Robin Corbo"
+            }, 
+            "id": "2612abbaedda46d9badb3127a01ac4ca"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6903596, 
+                    45.526368
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 2 works of art", 
+                "recordID": "1184", 
+                "artCount": 2, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "b66d8bfa560d4e48a2380000a84ae4fa"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.7558082, 
+                    45.591141
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "The Girls, Inc. Mural", 
+                "recordID": "2788", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Rodolfo Serna, Kate Zonis"
+            }, 
+            "id": "37bee361a2234ebe8df96fec5da1c2c9"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.7110401, 
+                    45.536
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Untitled", 
+                "recordID": "317", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Vern Luce"
+            }, 
+            "id": "194a556c33b640dba196fcc1cee38ab8"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6788148, 
+                    45.5122722
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Awning", 
+                "recordID": "1578", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Douglas Senft"
+            }, 
+            "id": "d1a134d9ae0848e9adb7c788e1143c90"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.660835, 
+                    45.5590527
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "Community Energy Project", 
+                "recordID": "3057", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Esteban Camacho Steffensen"
+            }, 
+            "id": "ea201a3745b24d3898c5945ed79665aa"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.612093, 
+                    45.478859
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 2 works of art", 
+                "recordID": "1755", 
+                "artCount": 2, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "084d4941f98f4ac08641bebfa2393a5d"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6306793, 
+                    45.5543005
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "Wilshire Park", 
+                "recordID": "2825", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Anna Garibay"
+            }, 
+            "id": "a19c250bb2624bf49118b56906a2d68b"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6535475, 
+                    45.515739
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "Temple of Cosmic Love", 
+                "recordID": "2771", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Eric Nez, Aloria Weaver, David  Heskin, Jerod Knapp"
+            }, 
+            "id": "d2f6b836609147d1a2793ca1ccc6cf38"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6697338, 
+                    45.5342092
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Streetcar Stop for Portland", 
+                "recordID": "3225", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Jorge Pardo"
+            }, 
+            "id": "403870a23ba948a79f5c4b183df280f4"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6757258, 
+                    45.60975939999999
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 13 works of art", 
+                "recordID": "2355", 
+                "artCount": 13, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "593f7cc0659745c39895f76609484972"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.708538, 
+                    45.499509
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Joy (Pioneer Woman)", 
+                "recordID": "812", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Frederick Littman"
+            }, 
+            "id": "6a0b4f1cb72f432c8524fcf236db71cf"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.686888, 
+                    45.583106
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Art Benches", 
+                "recordID": "2957", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Mauricio Salda\u00d2a"
+            }, 
+            "id": "2b1be4bae5a54820a8fb3bb015cab01a"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6775769, 
+                    45.5274258
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Waves of Breath", 
+                "recordID": "3069", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Masayuki Nagase"
+            }, 
+            "id": "d208981dd60c4a24b32b74d0adfaacef"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6755855, 
+                    45.5279793
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Driver's Seat", 
+                "recordID": "1343", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Don Merkt"
+            }, 
+            "id": "b412c882d9df41b4aa5dccc3d80715e2"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.678622, 
+                    45.5191021
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Kvinneakt", 
+                "recordID": "1337", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Norman Taylor"
+            }, 
+            "id": "e0f1039ef6914c1ca52504afbd5e0452"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.7226612, 
+                    45.5820662
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 10 works of art", 
+                "recordID": "2289", 
+                "artCount": 10, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "a994bc59cdfa46b3a26697e21b8cfe12"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6766945, 
+                    45.5151898
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "photography", 
+                "title": "Tools of the Trade", 
+                "recordID": "3103", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Bruce Forster"
+            }, 
+            "id": "aa9e818fe85d41808eb36b5def0338a3"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.7334708, 
+                    45.47992989999999
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Vincent, Waiting for Alice", 
+                "recordID": "1843", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Keith Jellum"
+            }, 
+            "id": "5d4edf1947b847b58dc35f7c3fea6bba"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.66432, 
+                    45.513369
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "Portland Store Fixtures", 
+                "recordID": "2923", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Teri L. Payton"
+            }, 
+            "id": "617ec8449b0f4af1b7f2d83de7dc9523"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6777634, 
+                    45.5153651
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Promised Land", 
+                "recordID": "1216", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "David  Manuel"
+            }, 
+            "id": "4bc5c290f60243dfae663448ea682a38"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6655356, 
+                    45.50807959999999
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 2 works of art", 
+                "recordID": "2009", 
+                "artCount": 2, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "1aba3bf731a143fcb52bced867d86cc2"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.69173, 
+                    45.52169199999999
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 2 works of art", 
+                "recordID": "1787", 
+                "artCount": 2, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "e0eee430aa564609aa3de1c8ca963cb9"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.671306, 
+                    45.522516
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "fountain", 
+                "title": "Skidmore Fountain", 
+                "recordID": "1336", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Olin Levi Warner"
+            }, 
+            "id": "45050d4a48804fedad90a054678d1800"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.679128, 
+                    45.515651
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 3 works of art", 
+                "recordID": "1194", 
+                "artCount": 3, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "f3df3d2d658548b19ac5b3f5b9c82876"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.682899, 
+                    45.519098
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 4 works of art", 
+                "recordID": "1504", 
+                "artCount": 4, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "8664db4cf8f94bc59bd00ae7a0ff826c"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6226381, 
+                    45.5106467
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Counter Act", 
+                "recordID": "2060", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Dana Lynn Louis"
+            }, 
+            "id": "2b96a7ddd0f54522a0ae64d0cef77a1b"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.680821, 
+                    45.574853
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 15 works of art", 
+                "recordID": "3034", 
+                "artCount": 15, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "a73403344b4f48c490a65fe2b9daecd2"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.537524, 
+                    45.512595
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "painting", 
+                "title": "Fire Station 41", 
+                "recordID": "2293", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Mary Josephson"
+            }, 
+            "id": "0655c24ae6834f9bb7580d1559664be2"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6140916, 
+                    45.5231237
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 2 works of art", 
+                "recordID": "1271", 
+                "artCount": 2, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "48fd65ee7efe4fb8a8aa907d54c0675f"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6768235, 
+                    45.5201245
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Interlocking Forms", 
+                "recordID": "793", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Donald Wilson"
+            }, 
+            "id": "10b02192bf94497e870c149d16cb5679"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.7155994, 
+                    45.5886674
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 4 works of art", 
+                "recordID": "2233", 
+                "artCount": 4, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "677ce2807c1c48139e6047c4612ccb20"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.67691, 
+                    45.5289001
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "painting", 
+                "title": "Portland Union Station Centennial", 
+                "recordID": "2185", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "J. Craig Thorpe"
+            }, 
+            "id": "42ba8824eb2d467095aa04c624fa2246"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6650044, 
+                    45.5419478
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "ANGLE of REPOSE: a pavilion", 
+                "recordID": "1368", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Jon Gierlich"
+            }, 
+            "id": "e152ab3abccd48c5bbb5dde3da8d4f01"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6704, 
+                    45.521879
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "architectural integration", 
+                "title": "Engine", 
+                "recordID": "2919", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Jack Archibald"
+            }, 
+            "id": "9688b8b83d014ae6aebcd9d02ef7a826"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.538929, 
+                    45.55215
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "History of the Horse Through Time and Cultures", 
+                "recordID": "2783", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Larry Kangas"
+            }, 
+            "id": "85d4d6e1ed8b4671a306f4dba586bc05"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.707252, 
+                    45.461917
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 7 works of art", 
+                "recordID": "3217", 
+                "artCount": 7, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "59818f87ace9489fbe9ba6106329e5a9"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.5539347, 
+                    45.5168833
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Measure, Mark, Inventory and Pattern", 
+                "recordID": "1379", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Jerry Mayer"
+            }, 
+            "id": "028320c42db94123bd1fd30522cbf850"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.705929, 
+                    45.548974
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "ceramics", 
+                "title": "Station 6", 
+                "recordID": "2314", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Cynthia Lahti"
+            }, 
+            "id": "500901414a6e4ad6912f271bcfe7df7c"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.751052, 
+                    45.589982
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "ceramics", 
+                "title": "St. John's Triptych", 
+                "recordID": "622", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Connie Earnshaw"
+            }, 
+            "id": "3432f53398a843548c85d4313e908441"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.693663, 
+                    45.480468
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "painting", 
+                "title": "Hot Fire", 
+                "recordID": "3022", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Henk Pander"
+            }, 
+            "id": "af83e09eeb4e421aad1bbc4c6d32c1f9"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6990841, 
+                    45.5365871
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "Bella Venti-tre e Thurman", 
+                "recordID": "3259", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Larry Kangas"
+            }, 
+            "id": "60fd9f80b96c4e0a95f30842a37cd7cb"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6786029, 
+                    45.5167779
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Puzzle Tower I", 
+                "recordID": "2882", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Chris Gander"
+            }, 
+            "id": "d4531fa3f41b4b49bdb896f01476a479"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6828611, 
+                    45.50973399999999
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "ceramics", 
+                "title": "Station 4", 
+                "recordID": "2278", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Cynthia Lahti"
+            }, 
+            "id": "a3538226436d468ea66df5ccf9135c12"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6800488, 
+                    45.5164092
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "City Reflections", 
+                "recordID": "2881", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Patti Warashina"
+            }, 
+            "id": "d44045fb15ed41e1b9ed5f5bf87fedf8"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.7607478, 
+                    45.5860531
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Drawing on the River", 
+                "recordID": "2821", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Donald Fels"
+            }, 
+            "id": "b51fc9c02eec465f8d8ba243d4eeaf78"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.5885145, 
+                    45.5485076
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "A Neighborhood in Motion", 
+                "recordID": "2829", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Angelina Marino, Gary Herd, Marlys Mick, Joel Heidel"
+            }, 
+            "id": "375e4aebefdc4e01a76507abf214ac94"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.601407, 
+                    45.5140726
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Harvey W. Scott", 
+                "recordID": "1182", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Gutzon Borglum"
+            }, 
+            "id": "fb6333c39d4d421290b753db8608e400"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6829578, 
+                    45.5111032
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Urban Hydrology", 
+                "recordID": "2884", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Fernanda D'Agostino"
+            }, 
+            "id": "35233fc3d1ab44d1b8a40bc808fa0af5"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.5378972, 
+                    45.5581902
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "painting", 
+                "title": "Fire Station 2", 
+                "recordID": "2291", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Mary Josephson"
+            }, 
+            "id": "ceabbb5eb1424e918323c993fda2780d"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6775765, 
+                    45.5188054
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 2 works of art", 
+                "recordID": "804", 
+                "artCount": 2, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "66a74d2d028c4cd7ab2a2aa76e219a31"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.660505, 
+                    45.562267
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 2 works of art", 
+                "recordID": "1225", 
+                "artCount": 2, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "a02e12659c8a4b0b94383cd6450a34ed"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.7186947, 
+                    45.5941043
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 6 works of art", 
+                "recordID": "2211", 
+                "artCount": 6, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "68b16588874448a88b0ad165a21bdd85"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6799857, 
+                    45.5186685
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Allow Me", 
+                "recordID": "1347", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "J. Seward Johnson"
+            }, 
+            "id": "cd1f2965baa04fc3a21afaf266daa75d"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.677138, 
+                    45.515249
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 39 works of art", 
+                "recordID": "778", 
+                "artCount": 39, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "43bbdb47207e4e1687e5cdb52d370023"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6056635, 
+                    45.5426607
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "George Washington", 
+                "recordID": "1183", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Pompeo Coppini"
+            }, 
+            "id": "3522c3b33c58432ebf7b4684b6187f5c"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6229104, 
+                    45.5264439
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Joan of Arc", 
+                "recordID": "1348", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Emmanuel Fr\u00c8miet"
+            }, 
+            "id": "5feda25e91ec4109a4576fee6e97f22b"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.645853, 
+                    45.562982
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 13 works of art", 
+                "recordID": "2352", 
+                "artCount": 13, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "b82935bf56764431a00ce9916622c1cc"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6987695, 
+                    45.50918
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "ceramics", 
+                "title": "Station 15", 
+                "recordID": "2752", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Cynthia Lahti"
+            }, 
+            "id": "15a1fd2392cc40ffb893d3ee61feaae0"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.735728, 
+                    45.510798
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Wrap", 
+                "recordID": "2036", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Ann Gardner"
+            }, 
+            "id": "8b853484e6c74dd4bb8b3ccad5842844"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.7209355, 
+                    45.5941922
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 2 works of art", 
+                "recordID": "1979", 
+                "artCount": 2, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "8464dfc0739a4f52a63e3b91f540911b"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.682784, 
+                    45.463439
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 2 works of art", 
+                "recordID": "970", 
+                "artCount": 2, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "4968c096221a4483990b159126173888"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.568691, 
+                    45.481197
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "painting", 
+                "title": "Fire Station 11", 
+                "recordID": "2290", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Mary Josephson"
+            }, 
+            "id": "f05b34eea7484c4ebbe35303f23d426a"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.5739257, 
+                    45.5543797
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Everyday Hero", 
+                "recordID": "1996", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Bill Will"
+            }, 
+            "id": "890b9262014b4f118940713e83f578b1"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.675438, 
+                    45.5458039
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "Albina Yard Maintenance Building", 
+                "recordID": "3202", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Matthew Wooldridge, Jakub Jerzy Kucharczyk"
+            }, 
+            "id": "02f9d602e32d4aa6bb1d35e8bb0350f9"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6793257, 
+                    45.5177511
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Thor", 
+                "recordID": "807", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Melvin Schuler"
+            }, 
+            "id": "6132a62261414fa595bdd15b06b3e5c8"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.694013, 
+                    45.479852
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Constant Change", 
+                "recordID": "2151", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Jochem Poensgen"
+            }, 
+            "id": "a95221fd6f764bd2ae4aa88ead901ddd"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6825596, 
+                    45.5117329
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "architectural integration", 
+                "title": "Verses - Reflected and Reflecting", 
+                "recordID": "3018", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Keiko Hara"
+            }, 
+            "id": "3e9508692f3b4514b9fb85a52484f218"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6671483, 
+                    45.5509653
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "The Scrap Mural", 
+                "recordID": "2495", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Bruce Orr"
+            }, 
+            "id": "b52fdaf5724543e7b69ecedd4d60ecda"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6587116, 
+                    45.5115179
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Eye River", 
+                "recordID": "3292", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Linda Wysong"
+            }, 
+            "id": "0146489babce4a00926ef23af540ef91"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6924631, 
+                    45.5735386
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 2 works of art", 
+                "recordID": "1383", 
+                "artCount": 2, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "92fb25056a8346319593741b75500261"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.677886, 
+                    45.516196
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "fiber", 
+                "title": "First Light", 
+                "recordID": "1879", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Judith Trager"
+            }, 
+            "id": "d447f8bce1594f77b19d3297721a1fcc"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6778903, 
+                    45.520407
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Pile", 
+                "recordID": "2878", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Malia Jensen"
+            }, 
+            "id": "b53d333d5a924661b576c858e73c11d8"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6753285, 
+                    45.5188845
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Upstream Downtown", 
+                "recordID": "1118", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Gary Hirsch"
+            }, 
+            "id": "f4e15432fb5548dda1619412304f0a52"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.717092, 
+                    45.5099259
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 5 works of art", 
+                "recordID": "813", 
+                "artCount": 5, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "1533460d20cf419bab448e9c9f2a68a1"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.5983284, 
+                    45.4904078
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "Tango Berret\u00ccn Mural", 
+                "recordID": "3054", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Remedios Rapoport"
+            }, 
+            "id": "8a8fd4ab457e44da871b4911d409dfab"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6607409, 
+                    45.5165199
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Inversion: Plus Minus", 
+                "recordID": "3261", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Annie Han, Daniel Mihalyo, Lead Pencil Studio"
+            }, 
+            "id": "d51e4b64e06a440ab8f38ab488a487bb"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.58798, 
+                    45.481335
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Uncommon Knowledge", 
+                "recordID": "1733", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Gail Simpson, Aristotle Georgiades"
+            }, 
+            "id": "c1d35ad6705c4d24913ff6d7bb22b8da"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6712891, 
+                    45.53345299999999
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Terra Incognita", 
+                "recordID": "1264", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Ilan Averbuch"
+            }, 
+            "id": "f8a09a4d7fc94fd4a6f75c16fc74387c"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.605182, 
+                    45.50556700000001
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "Tabor Commons", 
+                "recordID": "2828", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "John Early, Laura Bender"
+            }, 
+            "id": "ebff76440f9d4f8696097b5cfb76107c"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.4679462, 
+                    45.510278
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Taking Measure", 
+                "recordID": "1669", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Carolyn King"
+            }, 
+            "id": "deb3305bea69415b96fbe7f4e9f680d8"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.681456, 
+                    45.555749
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 11 works of art", 
+                "recordID": "2330", 
+                "artCount": 11, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "1712f524a8134edfa08ac03e4b18d756"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.688736, 
+                    45.528803
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "ceramics", 
+                "title": "Station 3", 
+                "recordID": "2277", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Cynthia Lahti"
+            }, 
+            "id": "6f03930a2c9e4eabbfefa8a996d35004"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.59439, 
+                    45.5316951
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 10 works of art", 
+                "recordID": "785", 
+                "artCount": 10, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "0c7d6cdb7a3d4c04a90030fafb9f1fea"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.5577787, 
+                    45.52350260000001
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 6 works of art", 
+                "recordID": "1891", 
+                "artCount": 6, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "dd7e92fd744b4c768af3fe8efbd902ab"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6369337, 
+                    45.5266434
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "Pambiche", 
+                "recordID": "3098", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Emily Beeks, Rachel Oleson"
+            }, 
+            "id": "7778e126170a457db29808ab9d4350f3"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.526469, 
+                    45.476504
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "painting", 
+                "title": "Fire Station 42", 
+                "recordID": "2294", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Mary Josephson"
+            }, 
+            "id": "9be9e7a3645d4db49b1016a845a84e4d"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6720321, 
+                    45.5175316
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 3 works of art", 
+                "recordID": "1187", 
+                "artCount": 3, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "7d70bb35a2604e169f78d879c6904082"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.7220649, 
+                    45.4758198
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 3 works of art", 
+                "recordID": "1691", 
+                "artCount": 3, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "b97052bcb9534cc18e96e4bd5d8ba0bc"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6875077, 
+                    45.522882
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "Outside In Dogs (1)", 
+                "recordID": "2493", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Michael T. Hensley"
+            }, 
+            "id": "3b1f15d086134261b28d77cdd462422c"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6351533, 
+                    45.56614039999998
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "Transformation, Integrity, Community", 
+                "recordID": "2827", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Greg Lewis, Larry Gross"
+            }, 
+            "id": "85304cd21e4f4f88ae39df81e8c5b671"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6787479, 
+                    45.5079339
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Leland #1", 
+                "recordID": "787", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Lee Kelly, Bonnie Bronson"
+            }, 
+            "id": "14882db545004358bb56512c6a9c7a4b"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6760663, 
+                    45.5214517
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Untitled", 
+                "recordID": "806", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Ivan Morrison"
+            }, 
+            "id": "1c730d6d8d5e427198e3f9c32836af01"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.7601817, 
+                    45.6023846
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 2 works of art", 
+                "recordID": "1658", 
+                "artCount": 2, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "95f3fa653b3d4fce93e65c3ddce5ae41"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.7599894, 
+                    45.5854766
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 2 works of art", 
+                "recordID": "1466", 
+                "artCount": 2, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "bbcdeecb2ca743118164fd5874907023"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.756641, 
+                    45.589938
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 19 works of art", 
+                "recordID": "2326", 
+                "artCount": 19, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "cdecce842df14e42bd96dd0d30a4d85d"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.608595, 
+                    45.491556
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "painting", 
+                "title": "The Call", 
+                "recordID": "2286", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Henk Pander"
+            }, 
+            "id": "bec085fa719942c881ba1b78479f1697"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.680413, 
+                    45.5157287
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Running Horses", 
+                "recordID": "1185", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Tom Hardy"
+            }, 
+            "id": "6b04d47bea074d55a9ec108932287261"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.760898, 
+                    45.544801
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Waterfall", 
+                "recordID": "2186", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Malia Jensen"
+            }, 
+            "id": "9aac2522ffed406388e3ca43a1655970"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.681327, 
+                    45.516623
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 5 works of art", 
+                "recordID": "966", 
+                "artCount": 5, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "28ff35af53054cd2978cf700a285bb32"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6614507, 
+                    45.5268503
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "Outside In Dogs (2)", 
+                "recordID": "2784", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Michael T. Hensley"
+            }, 
+            "id": "584f1bf4e2ec4205b484a622d58eaa63"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6658475, 
+                    45.5115422
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Eye River", 
+                "recordID": "3104", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Linda Wysong"
+            }, 
+            "id": "3dfd54b9f68743cf9e0e2de3f22a0efd"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6764933, 
+                    45.5244901
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "other", 
+                "title": "The Legend of the Green Man of Portland", 
+                "recordID": "2872", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Daniel Duford"
+            }, 
+            "id": "ccd4223a1a5d486eaf37f7d8e381d6b4"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.652542, 
+                    45.5300356
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Three Figures", 
+                "recordID": "1416", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Mark Bulwinkle"
+            }, 
+            "id": "bdce6e01baa74ce5aba8409e4ce5d122"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6558, 
+                    45.4981486
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "T\u00cdte \u2021 T\u00cdte \u2021 T\u00cdte", 
+                "recordID": "1350", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Marcia Donahue"
+            }, 
+            "id": "ffc55d559d2046ba84f757ee9dad97a9"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.59439, 
+                    45.5316951
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 2 works of art", 
+                "recordID": "1189", 
+                "artCount": 2, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "b84467ebc35c4353819525806e4dda58"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.4122872, 
+                    45.5277187
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "architectural integration", 
+                "title": "Echo", 
+                "recordID": "3033", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Marlene Bauer"
+            }, 
+            "id": "8207fe2ebd4d4da883e2932c3c5ab5f2"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.614343, 
+                    45.512268
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "Impact Northwest", 
+                "recordID": "2933", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Rodolfo Serna"
+            }, 
+            "id": "b83472ecf7aa4072b9b44b6a5e749536"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.5610523, 
+                    45.4954209
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Water Sculpture", 
+                "recordID": "1332", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Michihiro Kosuge"
+            }, 
+            "id": "003ef7e752e24350839ecb73ecd23d8b"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.5879056, 
+                    45.5230977
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "painting", 
+                "title": "Fire Station 19", 
+                "recordID": "2292", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Mary Josephson"
+            }, 
+            "id": "98e274b600cb4c27bf2f6c4f71c5733b"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.674872, 
+                    45.5682219
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Disc #4", 
+                "recordID": "362", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Jerry Allen"
+            }, 
+            "id": "8867b5f19d874c299fddd8550fd39a25"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6610759, 
+                    45.5345315
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "Hope is Vital", 
+                "recordID": "2781", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Heidi Schultz, Matt Bellingham"
+            }, 
+            "id": "f883f157fb294c36b915176793f9593c"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.5707667, 
+                    45.4686619
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "other", 
+                "title": "Oregon Grape", 
+                "recordID": "3200", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Joe Larralde"
+            }, 
+            "id": "abc89992ac9f495abb8cd08c174cff84"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6230312, 
+                    45.519288
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Triad", 
+                "recordID": "2025", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Evelyn Franz"
+            }, 
+            "id": "881691b21b2842d5a602892365a1a99f"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.684079, 
+                    45.5229255
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "People's Bike Library of Portland", 
+                "recordID": "2868", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Brian Borrello, Vanessa Renwick"
+            }, 
+            "id": "18acffdc7ec847de8d74a775366d214d"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6765771, 
+                    45.5266214
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Cairns", 
+                "recordID": "2871", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Christine Bourdette"
+            }, 
+            "id": "75205738cb0342dbbae12147d1105034"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6790787, 
+                    45.5230813
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Da Tung and Xi'an Bao Bao (Universal Peace and Baby Elephant)", 
+                "recordID": "2019", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Shang Dynasty replica"
+            }, 
+            "id": "76b3d94889224105b4fb1273e32703b9"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.652467, 
+                    45.50043
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "Flowering Legacy of the Civil Rights Leaders", 
+                "recordID": "2824", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Hector Hernandez"
+            }, 
+            "id": "52d02a33beeb48edbd397d22b20925e3"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6476985, 
+                    45.5590032
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "The Community Cycling Center Mural", 
+                "recordID": "2777", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Robin Corbo"
+            }, 
+            "id": "efa075f7054f4c0fadd6131e80a284e2"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6856768, 
+                    45.5257516
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "Mellow Mushroom", 
+                "recordID": "3212", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Jon Stommel, Travis Czekalski"
+            }, 
+            "id": "fe4650e0d8ee4d82b9bc18d50f309f92"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.658369, 
+                    45.522607
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "Cars Into Plowshares", 
+                "recordID": "2921", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Teressa Hamje"
+            }, 
+            "id": "37d9f2a1233f4fdcb568fb5fc58262d9"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.651782, 
+                    45.4742898
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "Portland Memorial Mausoleum Mural", 
+                "recordID": "2924", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Dan Cohen, ArtFX Murals, Shane Bennett"
+            }, 
+            "id": "697f031f9c9944ab914a47b5ed11a69b"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.525925, 
+                    45.537486
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "painting", 
+                "title": "Fire Station 43", 
+                "recordID": "2295", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Mary Josephson"
+            }, 
+            "id": "b993fe08fb1b4497ada98cb71f345abc"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.485131, 
+                    45.508653
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "other", 
+                "title": "Out of the Ashes: Prepare, Prevail, Preserve", 
+                "recordID": "3172", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Linda Haworth"
+            }, 
+            "id": "cb8f2f0942e74341ae7fb788c4dc71b1"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.674744, 
+                    45.560201
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "Cherry Sprout Produce", 
+                "recordID": "2931", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Chris Johanson, Jo Jackson"
+            }, 
+            "id": "d1f1cddb062045bd90a9a99662e4bc1a"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.5893779, 
+                    45.483003
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "Mt. Scott-Arleta Community Mural", 
+                "recordID": "2907", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Tiago DeJerk"
+            }, 
+            "id": "cb7306785eda42d1978bd34f60f27fc8"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6825495, 
+                    45.51707769999999
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Rebecca at the Well (Shemanski Fountain)", 
+                "recordID": "791", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Oliver Barrett"
+            }, 
+            "id": "bbaca41bb1544463a8af300858727ea2"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6815538, 
+                    45.5621981
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "Children and Youth Bill of Rights", 
+                "recordID": "3099", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Jesus Kobe Garcia, Margret Harburg"
+            }, 
+            "id": "cf4296799edf45769f888c3761067bdc"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.686176, 
+                    45.5115679
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Holon", 
+                "recordID": "2176", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Donald Wilson"
+            }, 
+            "id": "7fe1bef3a5ff435f86883dc33fb6dab0"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.682857, 
+                    45.4833519
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Totem Pole", 
+                "recordID": "810", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Cheif Lelooska (Don Smith)"
+            }, 
+            "id": "114454c3da8443ae902b422d2b06dcfe"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6868777, 
+                    45.5823894
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Poder de la Mano (The  power of the hand)", 
+                "recordID": "3070", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Mauricio Salda\u00d2a"
+            }, 
+            "id": "33644933ecbe482ba50b16fdfcc777fc"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.665893, 
+                    45.5118667
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "architectural integration", 
+                "title": "Portals", 
+                "recordID": "2688", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Linda Wysong"
+            }, 
+            "id": "ea1eb58e61e7441faaebfd71ed1d5e6d"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6604404, 
+                    45.5122974
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Connections", 
+                "recordID": "2245", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Wayne Chabre"
+            }, 
+            "id": "4b5c6bc29b464946a4f0e38e021186b8"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6781455, 
+                    45.5224428
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "Winter Wonderland", 
+                "recordID": "2774", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Shane Bennett, Dan Cohen"
+            }, 
+            "id": "14291d4c1a2f4528a8fd95d28097c59b"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6782417, 
+                    45.5174531
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "The Responsibility of Raising a Child", 
+                "recordID": "2880", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Rick Bartow"
+            }, 
+            "id": "4e66908c6ed840f9bd134d34a59ce0cf"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.578031, 
+                    45.52782
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "ceramics", 
+                "title": "Inner Game", 
+                "recordID": "1191", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Roberta Kaserman"
+            }, 
+            "id": "cfe7f2e1b469499ea0fea288c93c3e47"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6057296, 
+                    45.5416173
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Araminta - Carrying People to Safety", 
+                "recordID": "2189", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "James Harrison"
+            }, 
+            "id": "48f62ff6bbf04690a6bdc7ddc3717507"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6869935, 
+                    45.4801896
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "History of Land Use in Hillsdale", 
+                "recordID": "3171", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Angelina Marino, Joel Heidel"
+            }, 
+            "id": "9bb212f58cae4ac7a7a7728c2af157ed"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6613602, 
+                    45.5526204
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "Now is the Time, the Time is Now", 
+                "recordID": "1122", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Isaka Shamsud-Din"
+            }, 
+            "id": "bb369de2acaf43caa5de6401a7051029"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6775, 
+                    45.515713
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Elk", 
+                "recordID": "1335", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Roland Hinton Perry"
+            }, 
+            "id": "d2568f2102384e4188099dd4f3209042"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.5627072, 
+                    45.5308151
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "After All", 
+                "recordID": "2920", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Jonathan Bonner"
+            }, 
+            "id": "a3d2698c22aa42efbfba44681b975e1b"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6782671, 
+                    45.4996132
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "architectural integration", 
+                "title": "River Wrap", 
+                "recordID": "3173", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Anna Valentina Murch"
+            }, 
+            "id": "21aa951c0ff14827bf980c6b085c9df7"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.4728583, 
+                    45.5190956
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 3 works of art", 
+                "recordID": "3164", 
+                "artCount": 3, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "cff750b950484682b62d6209e126153c"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6830725, 
+                    45.4541993
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "Vigil of St. Mark", 
+                "recordID": "2823", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Esteban Camacho Steffensen"
+            }, 
+            "id": "21448ce4f25d458abc84acadd78b69d7"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6881336, 
+                    45.5152622
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "architectural integration", 
+                "title": "Icarus Triumphant", 
+                "recordID": "2937", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Jack Archibald"
+            }, 
+            "id": "d1c628262f3d483db9935975008c0725"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6972006, 
+                    45.5543096
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "BIG PIPE PORTAL: Making the Invisible Visible", 
+                "recordID": "2851", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Rhiza A + D"
+            }, 
+            "id": "592856eda0c34ea88c173c0e25d8a85a"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6547705, 
+                    45.5229982
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "The Burnside Rocket", 
+                "recordID": "2782", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "24 Artists"
+            }, 
+            "id": "7fcaa12a93b5496198519daf73a8220e"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.677511, 
+                    45.521097
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 2 works of art", 
+                "recordID": "805", 
+                "artCount": 2, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "a91714b1f42649b98f6b871d94945a86"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.651683, 
+                    45.559099
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Cultural Totem", 
+                "recordID": "2066", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Roslyn Hill, Lillian Pitt"
+            }, 
+            "id": "d96a5892a177458abdbdedf396c6d666"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6545624, 
+                    45.530005
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 3 works of art", 
+                "recordID": "1735", 
+                "artCount": 3, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "0fdc6d6fe9394446982d6bd1d7e3842b"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6575619, 
+                    45.5224652
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "KBOO", 
+                "recordID": "2932", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Kevin M. Fitzpatrick"
+            }, 
+            "id": "ed19f9d31869416fad7045b0262c1bf9"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.682489, 
+                    45.5102084
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "The Knowledge", 
+                "recordID": "3026", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Harrell Fletcher"
+            }, 
+            "id": "bba55b441ee64ba0bda41eb3007f2ad4"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6583372, 
+                    45.52219669999999
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "City Bikes", 
+                "recordID": "3100", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Roger Peet,"
+            }, 
+            "id": "3b26532dd1eb46b492778a2f0ef87e86"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6748662, 
+                    45.5096658
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "River Shift", 
+                "recordID": "1670", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Mathieu Gregoire"
+            }, 
+            "id": "f1495c688eb44cb9a61b937ac7ae7181"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6818776, 
+                    45.518418
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "other", 
+                "title": "Mercurial Sky", 
+                "recordID": "2909", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Dan Corson"
+            }, 
+            "id": "381cfd4d9b0443aab83de6c0240ca458"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6708773, 
+                    45.5246976
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Untitled", 
+                "recordID": "1197", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "David Kerner"
+            }, 
+            "id": "e7177eeaa65f4a198fa3bf4b79c2a6b4"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.7177981, 
+                    45.5146037
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "House for Summer", 
+                "recordID": "1783", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Helen Lessick"
+            }, 
+            "id": "6f50c3b1f2f745d6aa902aeb90ef07c6"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6764668, 
+                    45.5207917
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 2 works of art", 
+                "recordID": "2876", 
+                "artCount": 2, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "c33213afb5794b7d90a0cf7580b58c3d"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6113247, 
+                    45.5081693
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "Pranayama", 
+                "recordID": "2780", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Dana Lynn Louis"
+            }, 
+            "id": "9c9cfb8f4d5c4084971fe267fe2db780"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6420935, 
+                    45.4741911
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "painting", 
+                "title": "On the Roof", 
+                "recordID": "2285", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Henk Pander"
+            }, 
+            "id": "fd9d9f5ffce44771a1d4ed464a98136d"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6391027, 
+                    45.5498362
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "She Flies With Her Own Wings", 
+                "recordID": "3101", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Sharyn Smith"
+            }, 
+            "id": "212d03751a1146c9b5ec8cbba7f554d6"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.681635, 
+                    45.528902
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 3 works of art", 
+                "recordID": "1899", 
+                "artCount": 3, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "13b012459f8645b69f44031588851050"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.3963777, 
+                    45.5166453
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "TRIMET", 
+                "recordID": "1338", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Robert Maki"
+            }, 
+            "id": "a291a5a10de2462e81770925188bb848"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6671716, 
+                    45.5300384
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Little Prince", 
+                "recordID": "1345", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Ilan Averbuch"
+            }, 
+            "id": "5d2bc587a3c9460a8a934f29e21de978"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6615264, 
+                    45.5616764
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 3 works of art", 
+                "recordID": "1525", 
+                "artCount": 3, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "41b272c68fb44357931b7856ca933330"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6764663, 
+                    45.5230001
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Burls Will Be Burls", 
+                "recordID": "2873", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Bruce Conkle"
+            }, 
+            "id": "a13a2fc32eea47adb3105fdbe95bae54"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.646786, 
+                    45.55907999999999
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Noble Architect", 
+                "recordID": "3208", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Ruth Frances Greenberg, David Laubenthal"
+            }, 
+            "id": "c28394a61eb64fbeaa84e2ffecef30b7"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.611714, 
+                    45.504883
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 2 works of art", 
+                "recordID": "2892", 
+                "artCount": 2, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "56ac1ec5a83d490e90f99ecd535854cf"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6771849, 
+                    45.5217598
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Lodge Grass", 
+                "recordID": "2875", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "John Buck"
+            }, 
+            "id": "b1c3db548fcc48189ccf14f22ab98a90"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.661694, 
+                    45.571452
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 2 works of art", 
+                "recordID": "777", 
+                "artCount": 2, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "fe798a8ac8a0450093bc3dd31cf5ac94"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.543227, 
+                    45.563502
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 2 works of art", 
+                "recordID": "1720", 
+                "artCount": 2, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "4d723115cc7e44e88717579acfe62ec9"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6791314, 
+                    45.524466
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Dog Bowl", 
+                "recordID": "2177", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "William Wegman"
+            }, 
+            "id": "193354e9a3ac49c686756ea48fca8fc8"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6786873, 
+                    45.5149065
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 8 works of art", 
+                "recordID": "1570", 
+                "artCount": 8, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "cff843fb8f9e4850bb85feb1fae685e2"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6811244, 
+                    45.522977
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Pod", 
+                "recordID": "2003", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Pete Beeman"
+            }, 
+            "id": "e57dae7c55cf41c28f490a9bb1af6f95"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.636476, 
+                    45.473915
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "ceramics", 
+                "title": "Untitled", 
+                "recordID": "1120", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Geoffrey Pagen"
+            }, 
+            "id": "afd4d45ea7e54ad78b387b1352de6b8a"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6004267, 
+                    45.4703942
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "painting", 
+                "title": "A Moment of the River", 
+                "recordID": "1378", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Laura Bender"
+            }, 
+            "id": "7f11a13b32204a74a863eca2aea2ad61"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.684352, 
+                    45.5137514
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "In the Shadow of the Elm", 
+                "recordID": "790", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Paul Sutinen"
+            }, 
+            "id": "1f9470bc0ba848999eb729a3621af5c0"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.671805, 
+                    45.4978403
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Song Cycles", 
+                "recordID": "3017", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Douglas Hollis"
+            }, 
+            "id": "3e72710ed90549acadcd4442b64754fa"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.678954, 
+                    45.5184009
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Animals in Pools", 
+                "recordID": "1139", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Georgia Gerber"
+            }, 
+            "id": "69896e98f0fd4959892f0c93a124a793"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6118843, 
+                    45.5052133
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "Urban Wellness", 
+                "recordID": "3060", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Hector Hernandez"
+            }, 
+            "id": "9452c180d96d404aa35c63624e8f5bc9"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.676827, 
+                    45.539938
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "Women Making History in Portland", 
+                "recordID": "2785", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Robin Corbo"
+            }, 
+            "id": "6be4a59ffc5a46059df502b2ee8c688a"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6769612, 
+                    45.5174546
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 2 works of art", 
+                "recordID": "1117", 
+                "artCount": 2, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "256d67c4175843e4ab426fed42e15f34"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6738174, 
+                    45.569913
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 2 works of art", 
+                "recordID": "1587", 
+                "artCount": 2, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "94458f0f44b14c01b182d257ee948f25"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6760361, 
+                    45.5206694
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 19 works of art", 
+                "recordID": "2563", 
+                "artCount": 19, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "c334a45c7eb2447ab06dd95d15dd9b9e"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6744549, 
+                    45.5245151
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Festival Lanterns", 
+                "recordID": "2595", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Brian Goldbloom"
+            }, 
+            "id": "1dca6171f90147f8a1c0b8dd42ea1db7"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6004374, 
+                    45.49106159999999
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "Pal-Do Market", 
+                "recordID": "3107", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Una Kim"
+            }, 
+            "id": "046f38a860574515892a6b74d3d78003"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6832751, 
+                    45.5157384
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Theodore Roosevelt, Rough Rider", 
+                "recordID": "1192", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Alexander Phimister Proctor"
+            }, 
+            "id": "36fc74f0a562405f840d8a2b5053a6a0"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.7523836, 
+                    45.589315
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "Peninsula Station", 
+                "recordID": "3061", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Bruce Orr"
+            }, 
+            "id": "c0fc8922b3ee4c2e9bd03c8968d4309a"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6768146, 
+                    45.5224105
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "fountain", 
+                "title": "Untitled fountain", 
+                "recordID": "801", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Lee Kelly"
+            }, 
+            "id": "359ad1fc67c241278dea5aebbfc6579b"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.656751, 
+                    45.5717714
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Dekumstruction", 
+                "recordID": "3106", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Buster Simpson, Peg Butler"
+            }, 
+            "id": "8d5fb1294c0d4721a57e4dde3776d7e0"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.615594, 
+                    45.4790383
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "Woodstock Mural", 
+                "recordID": "3270", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Mike Lawrence, Heidi Schultz"
+            }, 
+            "id": "f52ed53875874079899fb69aaba97ac8"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6146797, 
+                    45.5231105
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "North Tabor Mural", 
+                "recordID": "3253", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "SpaceCraft: Mission to Arts, Maxwell Humphres, Jakub Jerzy Kucharczyk, Matthew Allen Wooldridge"
+            }, 
+            "id": "3a68b982d4a948cd8cd784d3506916ef"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.683854, 
+                    45.509963
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "The Cheerful Tortoise Mural", 
+                "recordID": "2787", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Patrick Greenfield, Jessie Smith, Kenji Lee, Justin White"
+            }, 
+            "id": "54b4a8392c674bacac7194afe43761b3"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.4253369, 
+                    45.5028109
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 2 works of art", 
+                "recordID": "1900", 
+                "artCount": 2, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "3091f6bde7714679a5816a45be176d9b"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6773819, 
+                    45.5160628
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 2 works of art", 
+                "recordID": "796", 
+                "artCount": 2, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "48332481d21b408caf9abcc124a6dc36"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6456119, 
+                    45.52538630000001
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "The Musician's Union Building Mural", 
+                "recordID": "2779", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Isaka Shamsud-Din, Joe  Cotter, Hector Hernandez, Baba Wagu\u00c8 Diakit\u00c8"
+            }, 
+            "id": "6c1c5d4593544f5395de217cf9635141"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.686719, 
+                    45.58281299999999
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "architectural integration", 
+                "title": "March", 
+                "recordID": "2940", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Marlene Bauer"
+            }, 
+            "id": "49d52ffc308a448f87d643e50b6be11f"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.7572045, 
+                    45.5923261
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 2 works of art", 
+                "recordID": "1892", 
+                "artCount": 2, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "256fab5cad2c4d8ca7c092b65f8f9ead"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6536822, 
+                    45.5115025
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Eye River", 
+                "recordID": "3293", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Linda Wysong"
+            }, 
+            "id": "2f62b489de934f2f998a6cfa74aad70f"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.652714, 
+                    45.5016
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "painting", 
+                "title": "CPR", 
+                "recordID": "2283", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Henk Pander"
+            }, 
+            "id": "2374af3081e34056b8dcdf39c7a47cda"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.757439, 
+                    45.626056
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 2 works of art", 
+                "recordID": "2201", 
+                "artCount": 2, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "3fe6811d17dd4728a58398f0c3ab0c04"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.69173, 
+                    45.52169199999999
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "You Are Here", 
+                "recordID": "3163", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Ron Baron"
+            }, 
+            "id": "30d09e14470c48b29a6027788cdfd7dc"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6210538, 
+                    45.5375002
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Hooray for Hollywood", 
+                "recordID": "1954", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Peter Mollica"
+            }, 
+            "id": "1f15779e48f8431a8b8a200db05fd3a8"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.681488, 
+                    45.5137423
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Continuation", 
+                "recordID": "2883", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Michihiro Kosuge"
+            }, 
+            "id": "0221528b8b4b45a7b0c61188a73fe613"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.683125, 
+                    45.51494599999999
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Peace Chant", 
+                "recordID": "789", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Steven Gillman"
+            }, 
+            "id": "1a17fa226a0b4d69909260cc751ba7c3"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6778814, 
+                    45.520432
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Untitled", 
+                "recordID": "803", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Bruce West"
+            }, 
+            "id": "8a85f0e0df774c7e83f4c151bbd6e6a5"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.7068156, 
+                    45.5357281
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Mimir", 
+                "recordID": "1209", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Keith Jellum"
+            }, 
+            "id": "60b7730d20a449c3b7063b179748caef"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6677537, 
+                    45.5330512
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Earth, Water and Heaven", 
+                "recordID": "1265", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Ilan Averbuch"
+            }, 
+            "id": "d54901213a2e44a1b6e42528694f9939"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6607803, 
+                    45.5122486
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Inversion: Plus Minus", 
+                "recordID": "3210", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Annie Han, Daniel Mihalyo, Lead Pencil Studio"
+            }, 
+            "id": "c30f022cad03434a9b91e20afc7ca378"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.7254219, 
+                    45.4480025
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Where in the World", 
+                "recordID": "3271", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Laura Bender"
+            }, 
+            "id": "3ca3938d6cd84725a10ea7735171ed42"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.703802, 
+                    45.5339627
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 2 works of art", 
+                "recordID": "973", 
+                "artCount": 2, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "19880c20f838468cba917f0937aef233"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6306683, 
+                    45.5377844
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Beverly Cleary Sculpture Garden for Children", 
+                "recordID": "1409", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Lee Hunt"
+            }, 
+            "id": "2bb230c6fef944538f6448c3a2da3f59"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.654082, 
+                    45.520137
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "Life in the Inner City", 
+                "recordID": "2776", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Angelina Marino"
+            }, 
+            "id": "b5c6d0b00fb14ffeb1badcf29a24e996"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6367526, 
+                    45.519443
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "Learning Beyond", 
+                "recordID": "2490", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Ping Khaw-Sutherland"
+            }, 
+            "id": "8e8a42410c244842b1f08e6fd857fe02"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6823349, 
+                    45.5195714
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "118 Modules", 
+                "recordID": "585", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "John Rogers"
+            }, 
+            "id": "6b7d08ae4a88479d9a70a043229b8120"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6798145, 
+                    45.5103394
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "The Dreamer", 
+                "recordID": "1334", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Manuel Izquierdo"
+            }, 
+            "id": "d956f773e3eb45f9839eaf66e57f85da"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6813852, 
+                    45.53082089999998
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Artwall", 
+                "recordID": "2187", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Herbert Dreiseitl"
+            }, 
+            "id": "41ff62bca763452fa8daff856b231ceb"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.718279, 
+                    45.454042
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "Tapestry", 
+                "recordID": "2492", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "John Early, Laura Bender"
+            }, 
+            "id": "e8d91db398e34ffdb10191fc93b607f7"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6494674, 
+                    45.5343118
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Street Twig", 
+                "recordID": "2209", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Jean Whitesavage, Nick Lyle"
+            }, 
+            "id": "a21694aba6324ef3b7959ae82355cdfa"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.591927, 
+                    45.562168
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "Fusion", 
+                "recordID": "2778", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Hampton Rodriguez"
+            }, 
+            "id": "3b42b66bd2924b3aa4ca4887aac2469d"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6144316, 
+                    45.4846942
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Park Place", 
+                "recordID": "1550", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Lloyd Hamrol"
+            }, 
+            "id": "b72b2256a7034ab5aed70bdcb9691e80"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6681815, 
+                    45.5133018
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 5 works of art", 
+                "recordID": "1839", 
+                "artCount": 5, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "19d01a67ee6f435f8bd813dadedc44ac"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6813302, 
+                    45.5015642
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "BW1", 
+                "recordID": "359", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Bruce West"
+            }, 
+            "id": "438132a0023f494895794112d10fc7aa"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.710773, 
+                    45.587667
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 4 works of art", 
+                "recordID": "1752", 
+                "artCount": 4, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "8bdf19b1cfbf4e2f97ce07e8135e5180"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6423886, 
+                    45.47045290000002
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Uroboros", 
+                "recordID": "617", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Charles Kibby"
+            }, 
+            "id": "90545d733296465b92c73e1aff894b7b"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.5559823, 
+                    45.49547279999999
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 2 works of art", 
+                "recordID": "1333", 
+                "artCount": 2, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "ddb5062f69984f7d8859dd355c2fd829"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.648444, 
+                    45.5343101
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "mural", 
+                "title": "Sullivan's Gulch 1806 and Confluences in Time", 
+                "recordID": "2773", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "Mike Leonard-Maguire"
+            }, 
+            "id": "573fc81d102e4e8787ee6f1466a69161"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.679117, 
+                    45.512731
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "Multiple", 
+                "title": "Multiple: 18 works of art", 
+                "recordID": "470", 
+                "artCount": 18, 
+                "datasource": "RACC", 
+                "artists": "Multiple"
+            }, 
+            "id": "e09a23b5568b46eebd97c6203e60392f"
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6829227, 
+                    45.5164061
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "discipline": "sculpture", 
+                "title": "Abraham Lincoln", 
+                "recordID": "1323", 
+                "artCount": 1, 
+                "datasource": "RACC", 
+                "artists": "George Fite Waters"
+            }, 
+            "id": "49e4eaf70e134b1aafa94449a4a3a199"
+        }
+    ]
+}

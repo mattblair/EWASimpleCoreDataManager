@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		C96D816618D9F272004D0D82 /* composers.json in Resources */ = {isa = PBXBuildFile; fileRef = C96D816518D9F272004D0D82 /* composers.json */; };
+		C96D816A18D9FDF2004D0D82 /* places.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C96D816818D9FDF2004D0D82 /* places.xcdatamodeld */; };
+		C96D816D18D9FE23004D0D82 /* GeoDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C96D816C18D9FE23004D0D82 /* GeoDataManager.m */; };
+		C96D817018D9FEAB004D0D82 /* places140316.json in Resources */ = {isa = PBXBuildFile; fileRef = C96D816F18D9FEAB004D0D82 /* places140316.json */; };
 		C98DA79318D64E570078F1D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98DA79218D64E570078F1D1 /* Foundation.framework */; };
 		C98DA79518D64E570078F1D1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98DA79418D64E570078F1D1 /* CoreGraphics.framework */; };
 		C98DA79718D64E570078F1D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98DA79618D64E570078F1D1 /* UIKit.framework */; };
@@ -43,6 +46,10 @@
 
 /* Begin PBXFileReference section */
 		C96D816518D9F272004D0D82 /* composers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = composers.json; sourceTree = "<group>"; };
+		C96D816918D9FDF2004D0D82 /* places.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = places.xcdatamodel; sourceTree = "<group>"; };
+		C96D816B18D9FE23004D0D82 /* GeoDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoDataManager.h; sourceTree = "<group>"; };
+		C96D816C18D9FE23004D0D82 /* GeoDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoDataManager.m; sourceTree = "<group>"; };
+		C96D816F18D9FEAB004D0D82 /* places140316.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = places140316.json; sourceTree = "<group>"; };
 		C98DA78F18D64E570078F1D1 /* EWASimpleCoreDataManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EWASimpleCoreDataManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C98DA79218D64E570078F1D1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C98DA79418D64E570078F1D1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -103,10 +110,31 @@
 		C96D816418D9F272004D0D82 /* data */ = {
 			isa = PBXGroup;
 			children = (
+				C96D816F18D9FEAB004D0D82 /* places140316.json */,
 				C96D816518D9F272004D0D82 /* composers.json */,
 			);
 			name = data;
 			path = resources/data;
+			sourceTree = "<group>";
+		};
+		C96D816718D9FDC1004D0D82 /* ComposerExample */ = {
+			isa = PBXGroup;
+			children = (
+				C98DA7D618D658990078F1D1 /* demo.xcdatamodeld */,
+				C98DA7D318D657A90078F1D1 /* DemoDataManager.h */,
+				C98DA7D418D657A90078F1D1 /* DemoDataManager.m */,
+			);
+			name = ComposerExample;
+			sourceTree = "<group>";
+		};
+		C96D816E18D9FE29004D0D82 /* GeoJSONExample */ = {
+			isa = PBXGroup;
+			children = (
+				C96D816818D9FDF2004D0D82 /* places.xcdatamodeld */,
+				C96D816B18D9FE23004D0D82 /* GeoDataManager.h */,
+				C96D816C18D9FE23004D0D82 /* GeoDataManager.m */,
+			);
+			name = GeoJSONExample;
 			sourceTree = "<group>";
 		};
 		C98DA78618D64E570078F1D1 = {
@@ -146,10 +174,9 @@
 				C98DA7CD18D64FD20078F1D1 /* EWASimpleCoreDataManager */,
 				C98DA7A118D64E570078F1D1 /* EWAAppDelegate.h */,
 				C98DA7A218D64E570078F1D1 /* EWAAppDelegate.m */,
-				C98DA7D618D658990078F1D1 /* demo.xcdatamodeld */,
-				C98DA7D318D657A90078F1D1 /* DemoDataManager.h */,
-				C98DA7D418D657A90078F1D1 /* DemoDataManager.m */,
+				C96D816718D9FDC1004D0D82 /* ComposerExample */,
 				C98DA7A418D64E570078F1D1 /* Main_iPhone.storyboard */,
+				C96D816E18D9FE29004D0D82 /* GeoJSONExample */,
 				C98DA7A718D64E570078F1D1 /* Main_iPad.storyboard */,
 				C98DA7AA18D64E570078F1D1 /* EWAMasterViewController.h */,
 				C98DA7AB18D64E570078F1D1 /* EWAMasterViewController.m */,
@@ -281,6 +308,7 @@
 			files = (
 				C96D816618D9F272004D0D82 /* composers.json in Resources */,
 				C98DA7A918D64E570078F1D1 /* Main_iPad.storyboard in Resources */,
+				C96D817018D9FEAB004D0D82 /* places140316.json in Resources */,
 				C98DA7B118D64E570078F1D1 /* Images.xcassets in Resources */,
 				C98DA7A618D64E570078F1D1 /* Main_iPhone.storyboard in Resources */,
 				C98DA79D18D64E570078F1D1 /* InfoPlist.strings in Resources */,
@@ -306,10 +334,12 @@
 				C98DA7D018D64FD20078F1D1 /* EWASimpleCoreDataManager.m in Sources */,
 				C98DA7DC18D665BB0078F1D1 /* NSManagedObject+EWAUtilities.m in Sources */,
 				C98DA7A318D64E570078F1D1 /* EWAAppDelegate.m in Sources */,
+				C96D816A18D9FDF2004D0D82 /* places.xcdatamodeld in Sources */,
 				C98DA7D818D658990078F1D1 /* demo.xcdatamodeld in Sources */,
 				C98DA7AC18D64E570078F1D1 /* EWAMasterViewController.m in Sources */,
 				C98DA79F18D64E570078F1D1 /* main.m in Sources */,
 				C98DA7AF18D64E570078F1D1 /* EWADetailViewController.m in Sources */,
+				C96D816D18D9FE23004D0D82 /* GeoDataManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,6 +568,16 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
+		C96D816818D9FDF2004D0D82 /* places.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C96D816918D9FDF2004D0D82 /* places.xcdatamodel */,
+			);
+			currentVersion = C96D816918D9FDF2004D0D82 /* places.xcdatamodel */;
+			path = places.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		C98DA7D618D658990078F1D1 /* demo.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
