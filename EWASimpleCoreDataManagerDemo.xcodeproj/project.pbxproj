@@ -11,6 +11,7 @@
 		C96D816A18D9FDF2004D0D82 /* places.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C96D816818D9FDF2004D0D82 /* places.xcdatamodeld */; };
 		C96D816D18D9FE23004D0D82 /* GeoDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C96D816C18D9FE23004D0D82 /* GeoDataManager.m */; };
 		C96D817018D9FEAB004D0D82 /* places140316.json in Resources */ = {isa = PBXBuildFile; fileRef = C96D816F18D9FEAB004D0D82 /* places140316.json */; };
+		C96D817318DA0F46004D0D82 /* Composer.m in Sources */ = {isa = PBXBuildFile; fileRef = C96D817218DA0F46004D0D82 /* Composer.m */; };
 		C98DA79318D64E570078F1D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98DA79218D64E570078F1D1 /* Foundation.framework */; };
 		C98DA79518D64E570078F1D1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98DA79418D64E570078F1D1 /* CoreGraphics.framework */; };
 		C98DA79718D64E570078F1D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98DA79618D64E570078F1D1 /* UIKit.framework */; };
@@ -50,6 +51,8 @@
 		C96D816B18D9FE23004D0D82 /* GeoDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoDataManager.h; sourceTree = "<group>"; };
 		C96D816C18D9FE23004D0D82 /* GeoDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoDataManager.m; sourceTree = "<group>"; };
 		C96D816F18D9FEAB004D0D82 /* places140316.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = places140316.json; sourceTree = "<group>"; };
+		C96D817118DA0F46004D0D82 /* Composer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Composer.h; sourceTree = "<group>"; };
+		C96D817218DA0F46004D0D82 /* Composer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Composer.m; sourceTree = "<group>"; };
 		C98DA78F18D64E570078F1D1 /* EWASimpleCoreDataManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EWASimpleCoreDataManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C98DA79218D64E570078F1D1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C98DA79418D64E570078F1D1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -121,6 +124,8 @@
 			isa = PBXGroup;
 			children = (
 				C98DA7D618D658990078F1D1 /* demo.xcdatamodeld */,
+				C96D817118DA0F46004D0D82 /* Composer.h */,
+				C96D817218DA0F46004D0D82 /* Composer.m */,
 				C98DA7D318D657A90078F1D1 /* DemoDataManager.h */,
 				C98DA7D418D657A90078F1D1 /* DemoDataManager.m */,
 			);
@@ -330,6 +335,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C96D817318DA0F46004D0D82 /* Composer.m in Sources */,
 				C98DA7D518D657A90078F1D1 /* DemoDataManager.m in Sources */,
 				C98DA7D018D64FD20078F1D1 /* EWASimpleCoreDataManager.m in Sources */,
 				C98DA7DC18D665BB0078F1D1 /* NSManagedObject+EWAUtilities.m in Sources */,
