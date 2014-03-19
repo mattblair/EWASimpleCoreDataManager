@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C96D816618D9F272004D0D82 /* composers.json in Resources */ = {isa = PBXBuildFile; fileRef = C96D816518D9F272004D0D82 /* composers.json */; };
 		C98DA79318D64E570078F1D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98DA79218D64E570078F1D1 /* Foundation.framework */; };
 		C98DA79518D64E570078F1D1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98DA79418D64E570078F1D1 /* CoreGraphics.framework */; };
 		C98DA79718D64E570078F1D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98DA79618D64E570078F1D1 /* UIKit.framework */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C96D816518D9F272004D0D82 /* composers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = composers.json; sourceTree = "<group>"; };
 		C98DA78F18D64E570078F1D1 /* EWASimpleCoreDataManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EWASimpleCoreDataManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C98DA79218D64E570078F1D1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C98DA79418D64E570078F1D1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -98,6 +100,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C96D816418D9F272004D0D82 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				C96D816518D9F272004D0D82 /* composers.json */,
+			);
+			name = data;
+			path = resources/data;
+			sourceTree = "<group>";
+		};
 		C98DA78618D64E570078F1D1 = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +155,7 @@
 				C98DA7AB18D64E570078F1D1 /* EWAMasterViewController.m */,
 				C98DA7AD18D64E570078F1D1 /* EWADetailViewController.h */,
 				C98DA7AE18D64E570078F1D1 /* EWADetailViewController.m */,
+				C96D816418D9F272004D0D82 /* data */,
 				C98DA7B018D64E570078F1D1 /* Images.xcassets */,
 				C98DA79918D64E570078F1D1 /* Supporting Files */,
 			);
@@ -267,6 +279,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C96D816618D9F272004D0D82 /* composers.json in Resources */,
 				C98DA7A918D64E570078F1D1 /* Main_iPad.storyboard in Resources */,
 				C98DA7B118D64E570078F1D1 /* Images.xcassets in Resources */,
 				C98DA7A618D64E570078F1D1 /* Main_iPhone.storyboard in Resources */,
