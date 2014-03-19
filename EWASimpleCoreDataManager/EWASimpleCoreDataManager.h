@@ -44,7 +44,12 @@ extern NSString * const EWASimpleCoreDataManagerDidSaveFailedNotification;
 // May not be on the main thread. Use for background work.
 - (NSManagedObjectContext *)workingMOC;
 
+
+// Data Import Utilities
+
 // a reusable date formatter for importing from JSON with ISO8601 date strings
 - (NSDateFormatter *)iso8601DateFormatter;
+
+- (NSDictionary *)flattenedGeoJSONFeature:(NSDictionary *)feature;
 
 @end

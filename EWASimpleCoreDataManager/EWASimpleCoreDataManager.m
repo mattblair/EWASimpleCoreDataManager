@@ -21,6 +21,16 @@
 // ISO 8601, as described here: http://www.w3.org/TR/NOTE-datetime
 #define ISO_8601_DATE_FORMAT @"yyyy-MM-dd'T'HH:mm:ssZ"
 
+// GeoJSON Feature object specification:
+// http://geojson.org/geojson-spec.html#feature-objects
+#define kGeoJSONGeometryKey @"geometry"
+#define kGeoJSONCoordinatesKey @"coordinates"
+#define kGeoJSONTypeKey @"type"
+#define kGeoJSONFeatureValue @"Feature"
+#define kGeoJSONPointValue @"Point"
+#define kGeoJSONIDKey @"id"
+#define kGeoJSONPropertiesKey @"properties"
+
 #import "EWASimpleCoreDataManager.h"
 
 // deprecate?
@@ -358,6 +368,9 @@ NSString * const EWASimpleCoreDataManagerDidSaveFailedNotification = @"EWASimple
     return nil; // until implemented
 }
 
+
+#pragma mark - Data Import Utilities
+
 - (NSDateFormatter *)iso8601DateFormatter {
     
     if (!_dateFormatter) {
@@ -368,6 +381,52 @@ NSString * const EWASimpleCoreDataManagerDidSaveFailedNotification = @"EWASimple
     }
     
     return _dateFormatter;
+}
+
+- (NSDictionary *)flattenedGeoJSONFeature:(NSDictionary *)feature {
+    
+    NSDictionary *geometryDictionary = [feature objectForKey:kGeoJSONGeometryKey];
+    NSString *typeString = [feature objectForKey:kGeoJSONTypeKey];
+    
+    if (!geometryDictionary || !typeString || ![typeString isEqualToString:kGeoJSONFeatureValue]) {
+        DLog(@"WARNING: Invalid feature: %@", feature);
+        return nil;
+    }
+    
+    NSArray *coordinatesArray = [geometryDictionary objectForKey:kGeoJSONCoordinatesKey];
+    typeString = [geometryDictionary objectForKey:kGeoJSONTypeKey];
+    
+    if (!coordinatesArray || !typeString || ![typeString isEqualToString:kGeoJSONPointValue]) {
+        DLog(@"WARNING: Invalid geometry value in feature: %@", feature);
+        return nil;
+    }
+    
+    // be tolerant of GeoJSON data with no properties? It is required but can be null.
+    NSDictionary *properties = [feature objectForKey:kGeoJSONPropertiesKey];
+    if (!properties) {
+        DLog(@"WARNING: properties key not found in feature: %@", feature);
+        return nil;
+    }
+    
+    NSUInteger capacity = [properties count] + 3;
+    
+    NSMutableDictionary *flatDictionary = [NSMutableDictionary dictionaryWithCapacity:capacity];
+    
+    // make these keys constants if you use them elsewhere
+    [flatDictionary addEntriesFromDictionary:@{ @"latitude" : coordinatesArray[1],
+                                                @"longitude" : coordinatesArray[0]
+                                                }];
+    
+    [flatDictionary addEntriesFromDictionary:properties];
+    
+    // this is not required, so test for it
+    id idValue = [feature objectForKey:kGeoJSONIDKey];
+    
+    if (idValue) {
+        [flatDictionary addEntriesFromDictionary:@{@"id" : idValue }];
+    }
+    
+    return flatDictionary;
 }
 
 @end
