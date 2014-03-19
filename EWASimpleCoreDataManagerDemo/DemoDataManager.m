@@ -8,6 +8,7 @@
 
 #import "DemoDataManager.h"
 #import "NSManagedObject+EWAUtilities.h"
+#import "Composer.h"
 
 @implementation DemoDataManager
 
@@ -101,16 +102,18 @@
     }
         
     // switch this to an NSManagedObject subclass...
-    NSManagedObject *aComposer = nil;
+    //NSManagedObject *aComposer = nil;
+    Composer *aComposer = nil;
     NSError *mocError = nil;
     
     for (NSDictionary *composerDict in composerArray) {
         
-        //newMaker = (BoxMaker *)[NSEntityDescription insertNewObjectForEntityForName:@"BoxMaker"
-        //                                                     inManagedObjectContext:moc];
+        // using convenience method available for NSManagedObject subclasses:
+        aComposer = [Composer insertNewObjectInManagedObjectContext:moc];
         
-        aComposer = [NSEntityDescription insertNewObjectForEntityForName:@"Composer"
-                                                  inManagedObjectContext:moc];
+        // if using NSManagedObject directly, use this stanadard method:
+        //aComposer = [NSEntityDescription insertNewObjectForEntityForName:@"Composer"
+        //                                          inManagedObjectContext:moc];
         
         [aComposer setValuesFromJSONDictionary:composerDict
                              withDateFormatter:[self iso8601DateFormatter]];

@@ -15,7 +15,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     
-    /*
+    // uncomment to test basic JSON data
+    
     if ([[DemoDataManager sharedInstance] confirmDatabaseInstalled]) {
         
         NSLog(@"Datastore installed.");
@@ -24,8 +25,10 @@
     }
      
     [[DemoDataManager sharedInstance] populateIfEmpty];
-    */
     
+    
+    // uncomment to test GeoJSON
+    /*
     if ([[GeoDataManager sharedInstance] confirmDatabaseInstalled]) {
         
         NSLog(@"Datastore installed.");
@@ -34,6 +37,7 @@
     }
     
     [[GeoDataManager sharedInstance] populateIfEmpty];
+    */
     
     // Override point for customization after application launch.
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
