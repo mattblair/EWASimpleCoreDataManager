@@ -26,10 +26,13 @@
 #define kGeoJSONGeometryKey @"geometry"
 #define kGeoJSONCoordinatesKey @"coordinates"
 #define kGeoJSONTypeKey @"type"
+#define kGeoJSONFeatureCollectionValue @"FeatureCollection"
 #define kGeoJSONFeatureValue @"Feature"
 #define kGeoJSONPointValue @"Point"
 #define kGeoJSONIDKey @"id"
 #define kGeoJSONPropertiesKey @"properties"
+
+#define kGeoJSONFeaturesKey @"features"
 
 #import "EWASimpleCoreDataManager.h"
 
@@ -381,6 +384,25 @@ NSString * const EWASimpleCoreDataManagerDidSaveFailedNotification = @"EWASimple
     }
     
     return _dateFormatter;
+}
+
+// http://geojson.org/geojson-spec.html#feature-collection-objects
+- (NSArray *)extractFeaturesFromGeoJSONFeatureCollection:(NSDictionary *)collection {
+    
+    NSString *typeString = [collection objectForKey:kGeoJSONTypeKey];
+    
+    if (!typeString || ![typeString isEqualToString:kGeoJSONFeatureCollectionValue]) {
+        DLog(@"WARNING: Invalid feature collection: %@", collection);
+        return nil;
+    }
+    
+    NSArray *features = [collection objectForKey:kGeoJSONFeaturesKey];
+    
+    if (!features) {
+        DLog(@"WARNING: 'features' key missing from collection: %@", collection);
+    }
+    
+    return features;
 }
 
 // see link to spec above, where key/value constants are defined
