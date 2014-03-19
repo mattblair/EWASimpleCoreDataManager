@@ -12,4 +12,6 @@
 
 // add convenience methods here
 
+- (void)populateIfEmpty;
+
 @end
