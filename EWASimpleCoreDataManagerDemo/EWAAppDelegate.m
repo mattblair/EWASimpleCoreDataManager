@@ -8,20 +8,32 @@
 
 #import "EWAAppDelegate.h"
 #import "DemoDataManager.h"
+#import "GeoDataManager.h"
 
 @implementation EWAAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     
+    /*
     if ([[DemoDataManager sharedInstance] confirmDatabaseInstalled]) {
         
         NSLog(@"Datastore installed.");
     } else {
         NSLog(@"WARNING: DATASTORE NOT INSTALLED.");
     }
-    
+     
     [[DemoDataManager sharedInstance] populateIfEmpty];
+    */
+    
+    if ([[GeoDataManager sharedInstance] confirmDatabaseInstalled]) {
+        
+        NSLog(@"Datastore installed.");
+    } else {
+        NSLog(@"WARNING: DATASTORE NOT INSTALLED.");
+    }
+    
+    [[GeoDataManager sharedInstance] populateIfEmpty];
     
     // Override point for customization after application launch.
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {

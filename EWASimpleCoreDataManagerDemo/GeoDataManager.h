@@ -10,4 +10,6 @@
 
 @interface GeoDataManager : EWASimpleCoreDataManager
 
+- (void)populateIfEmpty;
+
 @end
