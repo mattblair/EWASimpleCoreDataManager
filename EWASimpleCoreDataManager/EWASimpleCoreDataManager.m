@@ -18,6 +18,9 @@
 #endif
 #endif
 
+// ISO 8601, as described here: http://www.w3.org/TR/NOTE-datetime
+#define ISO_8601_DATE_FORMAT @"yyyy-MM-dd'T'HH:mm:ssZ"
+
 #import "EWASimpleCoreDataManager.h"
 
 // deprecate?
@@ -29,6 +32,8 @@ NSString * const EWASimpleCoreDataManagerDidSaveFailedNotification = @"EWASimple
 @property (strong, nonatomic) NSManagedObjectModel *managedObjectModel;
 @property (strong, nonatomic) NSManagedObjectContext *mainThreadManagedObjectContext;
 @property (strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
+
+@property (strong, nonatomic) NSDateFormatter *dateFormatter;
 
 @end
 
@@ -353,5 +358,16 @@ NSString * const EWASimpleCoreDataManagerDidSaveFailedNotification = @"EWASimple
     return nil; // until implemented
 }
 
+- (NSDateFormatter *)iso8601DateFormatter {
+    
+    if (!_dateFormatter) {
+        
+        _dateFormatter = [[NSDateFormatter alloc] init];
+        
+        [_dateFormatter setDateFormat:ISO_8601_DATE_FORMAT];
+    }
+    
+    return _dateFormatter;
+}
 
 @end
