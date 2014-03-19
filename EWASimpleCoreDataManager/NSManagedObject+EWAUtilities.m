@@ -35,10 +35,8 @@
         switch (attributeType) {
             case NSStringAttributeType: {
                 
-                if (([valueFromJSON isKindOfClass:[NSNumber class]])) {
+                if ([valueFromJSON isKindOfClass:[NSNumber class]]) {
                     valueFromJSON = [valueFromJSON stringValue];
-                } else {
-                    NSLog(@"WARNING: Value %@ was not an NSNumber. String conversion failed.", valueFromJSON);
                 }
                 break;
             }
@@ -47,30 +45,33 @@
             case NSInteger32AttributeType:
             case NSInteger64AttributeType: {
                 
-                if (([valueFromJSON isKindOfClass:[NSString class]])) {
+                if ([valueFromJSON isKindOfClass:[NSString class]]) {
                     valueFromJSON = [NSNumber numberWithInteger:[valueFromJSON integerValue]];
                 } else {
-                    NSLog(@"WARNING: Value %@ was not a string. Integer conversion failed.", valueFromJSON);
+                    NSLog(@"WARNING: Value %@ was not a string, but a %@. Check integer conversion.",
+                          valueFromJSON, [valueFromJSON class]);
                 }
                 break;
             }
                 
             case NSBooleanAttributeType: {
                 
-                if (([valueFromJSON isKindOfClass:[NSString class]])) {
+                if ([valueFromJSON isKindOfClass:[NSString class]]) {
                     valueFromJSON = [NSNumber numberWithInteger:[valueFromJSON integerValue]];
                 } else {
-                    NSLog(@"WARNING: Value %@ was not a string. BOOL conversion failed.", valueFromJSON);
+                    NSLog(@"WARNING: Value %@ was not a string, but a %@. Check BOOL conversion.",
+                          valueFromJSON, [valueFromJSON class]);
                 }
                 break;
             }
                 
             case NSFloatAttributeType: {
                 
-                if (([valueFromJSON isKindOfClass:[NSString class]])) {
+                if ([valueFromJSON isKindOfClass:[NSString class]]) {
                     valueFromJSON = [NSNumber numberWithDouble:[valueFromJSON doubleValue]];
                 } else {
-                    NSLog(@"WARNING: Value %@ was not a string. Float conversion failed.", valueFromJSON);
+                    NSLog(@"WARNING: Value %@ was not a string, but a %@. Check float conversion.",
+                          valueFromJSON, [valueFromJSON class]);
                 }
                 break;
             }
@@ -80,7 +81,7 @@
                 if (([valueFromJSON isKindOfClass:[NSString class]])) {
                     valueFromJSON = [dateFormatter dateFromString:valueFromJSON];
                 } else {
-                    NSLog(@"WARNING: Value %@ was not a string. Date conversion failed.", valueFromJSON);
+                    NSLog(@"WARNING: Value %@ was not a string. Check date conversion.", valueFromJSON);
                 }
                 break;
             }
