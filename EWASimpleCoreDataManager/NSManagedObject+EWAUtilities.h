@@ -20,15 +20,10 @@
 
 #import <CoreData/CoreData.h>
 
-// default to ISO 8601, as described here: http://www.w3.org/TR/NOTE-datetime
-#define ISO_8601_DATE_FORMAT @"yyyy-MM-dd'T'HH:mm:ssZ"
-
 @interface NSManagedObject (EWAUtilities)
 
-- (void)setValuesFromJSONDictionary:(NSDictionary *)jsonDictionary;
+- (void)setValuesFromJSONDictionary:(NSDictionary *)jsonDictionary withDateFormatter:(NSDateFormatter *)dateFormatter;
 
-- (void)setValuesFromJSONDictionary:(NSDictionary *)jsonDictionary withDateFormat:(NSString *)dateFormat;
-
-- (void)setValuesFromJSONDictionary:(NSDictionary *)jsonDictionary withDateFormat:(NSString *)dateFormat excludingProperties:(NSArray *)propertiesToExclude;
+- (void)setValuesFromJSONDictionary:(NSDictionary *)jsonDictionary withDateFormatter:(NSDateFormatter *)dateFormatter excludingProperties:(NSArray *)propertiesToExclude;
 
 @end

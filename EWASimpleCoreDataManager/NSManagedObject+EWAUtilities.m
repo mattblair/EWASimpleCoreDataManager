@@ -10,15 +10,7 @@
 
 @implementation NSManagedObject (EWAUtilities)
 
-- (void)setValuesFromJSONDictionary:(NSDictionary *)jsonDictionary withDateFormat:(NSString *)dateFormat excludingProperties:(NSArray *)propertiesToExclude {
-    
-    //TODO: move this to data manager, so you only create once
-    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
-    
-    if (!dateFormat)
-        dateFormat = ISO_8601_DATE_FORMAT;
-    
-    [dateFormatter setDateFormat:dateFormat];
+- (void)setValuesFromJSONDictionary:(NSDictionary *)jsonDictionary withDateFormatter:(NSDateFormatter *)dateFormatter excludingProperties:(NSArray *)propertiesToExclude {
     
     // future-proof introspection of keys
     NSMutableDictionary *keysToSet = [[[self entity] attributesByName] mutableCopy];
@@ -118,15 +110,18 @@
     }
 }
 
-- (void)setValuesFromJSONDictionary:(NSDictionary *)jsonDictionary withDateFormat:(NSString *)dateFormat {
+- (void)setValuesFromJSONDictionary:(NSDictionary *)jsonDictionary withDateFormatter:(NSDateFormatter *)dateFormatter {
     
-    [self setValuesFromJSONDictionary:jsonDictionary withDateFormat:dateFormat excludingProperties:nil];
+    [self setValuesFromJSONDictionary:jsonDictionary withDateFormatter:dateFormatter excludingProperties:nil];
 }
 
-
+// probably deprecated
+// because it is really inefficient to create an NSDateFormatter on each import.
+// managers/controllers using this class really should create one date formatter
+// and reuse it.
 - (void)setValuesFromJSONDictionary:(NSDictionary *)jsonDictionary {
     
-    [self setValuesFromJSONDictionary:jsonDictionary withDateFormat:nil];
+    [self setValuesFromJSONDictionary:jsonDictionary withDateFormatter:nil];
 }
 
 @end
