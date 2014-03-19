@@ -383,6 +383,7 @@ NSString * const EWASimpleCoreDataManagerDidSaveFailedNotification = @"EWASimple
     return _dateFormatter;
 }
 
+// see link to spec above, where key/value constants are defined
 - (NSDictionary *)flattenedGeoJSONFeature:(NSDictionary *)feature {
     
     NSDictionary *geometryDictionary = [feature objectForKey:kGeoJSONGeometryKey];
@@ -415,11 +416,12 @@ NSString * const EWASimpleCoreDataManagerDidSaveFailedNotification = @"EWASimple
     // make these keys constants if you use them elsewhere
     [flatDictionary addEntriesFromDictionary:@{ @"latitude" : coordinatesArray[1],
                                                 @"longitude" : coordinatesArray[0]
-                                                }];
+                                              }];
     
     [flatDictionary addEntriesFromDictionary:properties];
     
     // this is not required, so test for it
+    // it could be an integer or a string
     id idValue = [feature objectForKey:kGeoJSONIDKey];
     
     if (idValue) {
