@@ -176,12 +176,16 @@ NSString * const EWASimpleCoreDataManagerDidSaveFailedNotification = @"EWASimple
     //NSDictionary *options = @{ NSMigratePersistentStoresAutomaticallyOption : [NSNumber numberWithBool:YES],
     //                           NSInferMappingModelAutomaticallyOption : [NSNumber numberWithBool:YES] };
     
+    // revert to pre-iOS 7.0 journal behavior so all writes to go main db file
+    // http://pinkstone.co.uk/how-to-remove-wal-files-in-core-data/
+    NSDictionary *options = @{NSSQLitePragmasOption: @{@"journal_mode": @"delete"}};
+    
     NSError *error = nil;
     _persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
     if (![_persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType
                                                    configuration:nil
                                                              URL:storeURL
-                                                         options:nil
+                                                         options:options
                                                            error:&error]) {
         
         DLog(@"Unresolved error %@, %@", error, [error userInfo]);
