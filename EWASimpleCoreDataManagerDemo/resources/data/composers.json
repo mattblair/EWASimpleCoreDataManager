@@ -1,53 +1,53 @@
-[
-    {
-        "alive": false,
-        "birthDate": "1685-03-31T00:23:47Z",
-        "comments": "What a workhorse!",
-        "myRating": 10,
-        "name": "J.S. Bach",
-        "numberOrWorks": 1126,
-        "style": "Late Baroque"
-    },
-    {
-        "alive": false,
-        "birthDate": "1567-05-15T00:17:41Z",
-        "comments": "Inventor of Opera.",
-        "myRating": 11,
-        "name": "Claudio Monteverdi",
-        "numberOrWorks": 500,
-        "style": "Late Renaissance/Early Baroque"
-    },
-    {
-        "alive": true,
-        "birthDate": "1937-01-30T00:11:17Z",
-        "comments": "I love his early raw stuff. Plus Mad Rush. And of course: Einstein on the Beach.",
-        "myRating": 8,
-        "name": "Philip Glass",
-        "numberOrWorks": 300,
-        "style": "Late 20th Century"
-    },
-    {
-        "alive": false,
-        "birthDate": "1811-10-22T01:22:47Z",
-        "comments": "The Byronic apotheosis of gymnastical pianism! As a composer, he never seemed to run out of staff paper, or use an eraser.",
-        "myRating": -1,
-        "name": "Franz Liszt",
-        "numberOrWorks": 100,
-        "style": "High Romantic"
-    },
-    {
-        "alive": true,
-        "birthDate": "1932-05-30T03:13:31Z",
-        "comments": "",
-        "myRating": 9,
-        "name": "Pauline Oliveros",
-        "style": "Deep Listening"
-    },
-    {
-        "alive": true,
-        "comments": "Winner of the Pulitzer Prize in 2013",
-        "myRating": 7,
-        "name": "Caroline Shaw",
-        "style": "Contemporary"
-    }
-]
+ [
+  {
+  "alive": false,
+  "birthDate": "1685-03-31T00:23:47Z",
+  "comments": "What a workhorse!",
+  "myRating": 10,
+  "name": "J.S. Bach",
+  "numberOrWorks": 1126,
+  "style": "Late Baroque"
+  },
+  {
+  "alive": false,
+  "birthDate": "1567-05-15T00:17:41Z",
+  "comments": "Inventor of Opera.",
+  "myRating": 11,
+  "name": "Claudio Monteverdi",
+  "numberOrWorks": 500,
+  "style": "Late Renaissance/Early Baroque"
+  },
+  {
+  "alive": true,
+  "birthDate": "1937-01-30T00:11:17Z",
+  "comments": "I love his early raw stuff. Plus Mad Rush. And of course: Einstein on the Beach.",
+  "myRating": 8,
+  "name": "Philip Glass",
+  "numberOrWorks": 300,
+  "style": "Late 20th Century"
+  },
+  {
+  "alive": false,
+  "birthDate": "1811-10-22T01:22:47Z",
+  "comments": "The Byronic apotheosis of gymnastical pianism! As a composer, he never seemed to run out of staff paper, or use an eraser.",
+  "myRating": -1,
+  "name": "Franz Liszt",
+  "numberOrWorks": 100,
+  "style": "High Romantic"
+  },
+  {
+  "alive": true,
+  "birthDate": "1932-05-30T03:13:31Z",
+  "comments": "",
+  "myRating": 9,
+  "name": "Pauline Oliveros",
+  "style": "Deep Listening"
+  },
+  {
+  "alive": true,
+  "comments": "Winner of the Pulitzer Prize in 2013",
+  "myRating": 7,
+  "name": "Caroline Shaw",
+  "style": "Contemporary"
+  }
+  ]
