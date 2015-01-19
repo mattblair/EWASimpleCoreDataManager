@@ -390,6 +390,34 @@ NSString * const EWASimpleCoreDataManagerDidSaveFailedNotification = @"EWASimple
     return _dateFormatter;
 }
 
+- (NSArray *)arrayFromJSONFileNamed:(NSString *)jsonFilename {
+    
+    NSString *filepath = [[NSBundle mainBundle] pathForResource:jsonFilename
+                                                         ofType:@"json"];
+    
+    NSError *fileLoadError = nil;
+    NSData *theJSONData = [NSData dataWithContentsOfFile:filepath
+                                                 options:NSDataReadingUncached
+                                                   error:&fileLoadError];
+    
+    if (!theJSONData) {
+        NSLog(@"Loading %@ JSON file failed: %@, %@", jsonFilename, fileLoadError, [fileLoadError userInfo]);
+        return nil;
+    }
+    
+    NSError *jsonDeserializeError = nil;
+    NSArray *arrayFromJSON = [NSJSONSerialization JSONObjectWithData:theJSONData
+                                                             options:0
+                                                               error:&jsonDeserializeError];
+    
+    if (!arrayFromJSON || ![arrayFromJSON isKindOfClass:[NSArray class]]) {
+        NSLog(@"Deserializing %@ JSON data failed: %@, %@", jsonFilename, jsonDeserializeError, [jsonDeserializeError userInfo]);
+        return nil;
+    } else {
+        return arrayFromJSON;
+    }
+}
+
 // http://geojson.org/geojson-spec.html#feature-collection-objects
 - (NSArray *)extractFeaturesFromGeoJSONFeatureCollection:(NSDictionary *)collection {
     

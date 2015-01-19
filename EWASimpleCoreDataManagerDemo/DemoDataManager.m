@@ -72,7 +72,7 @@
     
     // not required, but it makes lines a little shorter
     NSManagedObjectContext *moc = [self mainThreadMOC];
-    
+    /*
     NSString *filepath = [[NSBundle mainBundle] pathForResource:@"composers"
                                                          ofType:@"json"];
 	
@@ -100,9 +100,10 @@
         NSLog(@"Deserializing JSON Data Failed: %@, %@", jsonDeserializeError, [jsonDeserializeError userInfo]);
         return NO;
     }
-        
-    // switch this to an NSManagedObject subclass...
-    //NSManagedObject *aComposer = nil;
+    */
+    
+    NSArray *composerArray = [self arrayFromJSONFileNamed:@"composers"];
+    
     Composer *aComposer = nil;
     NSError *mocError = nil;
     

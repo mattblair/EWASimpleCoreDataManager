@@ -50,6 +50,9 @@ extern NSString * const EWASimpleCoreDataManagerDidSaveFailedNotification;
 // a reusable date formatter for importing from JSON with ISO8601 date strings
 - (NSDateFormatter *)iso8601DateFormatter;
 
+// load JSON from the bundle
+- (NSArray *)arrayFromJSONFileNamed:(NSString *)jsonFilename;
+
 - (NSArray *)extractFeaturesFromGeoJSONFeatureCollection:(NSDictionary *)collection;
 - (NSDictionary *)flattenedGeoJSONFeature:(NSDictionary *)feature;
 
